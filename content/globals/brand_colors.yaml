@@ -1,0 +1,8 @@
+title: 'Brand Colors'
+data:
+  replicator:
+    -
+      name: 'Main Colors'
+      color: null
+      type: new_set
+      enabled: true

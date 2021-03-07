@@ -1,0 +1,81 @@
+<div id="home-page" class="flex justify-between">
+    <div class="w-1/12">
+
+    </div>
+    <div class="pb-16 w-6/12">
+        {{ collection:articles | group_by="date" | limit:1 }}
+            {{ partial:blog/article_preview_hero }}
+        {{ /collection:articles}}
+        {{ taxonomy:categories }}
+            <div class="bg-gray-200">
+                <h2 class="inline-block text-4xl font-display border-b-4 border-blue">{{ title }}</h2>
+            </div>
+            <h3 class="text 1-lg mb-8">{{content}}</h3>
+            <div class="flex">
+                {{ entries | limit:3 }}
+                    <!-- if not most recent -->
+                    {{ partial:blog/article_preview }}
+                {{ /entries }}
+            </div>
+        {{ /taxonomy:categories }}
+
+        <!-- CRYPTOCLOPSE PORTFOLIO -->
+        <section class="future-partial">
+            <h1 class="text-4xl font-display mb-4">CryptoClopse Portfolio</h1>
+            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="3077,3012,2010,512" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+        </section>
+    
+        <h1>Projects.........</h1>
+    
+        <ul class="mt-16">
+            <h3>Homepage Layout</h3>
+            <li>Hero/Recent Post w/info</li>
+            <ul>
+                Latest Posts w/Filter
+                <li>Latest</li>
+                <li>Cat A</li>
+                <li>Cat B</li>
+                <li>Cat C etc.</li>
+            </ul>
+            <li>Categories</li>
+            <li>Call to Action</li>
+            <li>Each category as section with 3 recent posts</li>
+            <li>Email Signup</li>
+            <li>Footer</li>
+        </ul>
+        <br>
+        <ul>
+            <h3>Blog Categories</h3>
+            <li>Graphic Design</li>
+            <li>Writing</li>
+            <li>Coding & Dev</li>
+            <li>Art</li>
+            <li>Blogging</li>
+        </ul>
+
+        <h2>Grid Layout - Cryptos On Fire</h2>
+        <p>Dynamic layout of hottest cryptos of the day.</p>
+    
+        <div class="text-xs font-bold uppercase text-gray-600 space-x-3">
+            <a class="hover:bg-gray-300 p-2 rounded" href="{{ cp_url }}">Control Panel</a>
+            <a class="hover:bg-gray-300 p-2 rounded" href="https://statamic.dev" target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a class="hover:bg-gray-300 p-2 rounded" href="https://statamic.com/support" rel="noopener noreferrer">Get Support</a>
+        </div>
+        {{ content }}
+    </div>
+    <div class="w-3/12">
+        {{ collection:articles taxonomy_tags:contains="featured" }}
+            <article class="top-category border border-grayborder mb-5">
+                <div class="flex justify-between items-center bg-whitesmoke py-2 px-3">
+                    <h4 class="font-display font-bold">{{ title }}</h4>
+                    <p class="text-xs text-blue">Category Name</p>
+                </div>
+                <div class="p-3">
+                    <p>This is the article content. Content will go here and stuff and things.</p>
+                    <span class="author text-xs mr-3"><strong>Kevin Grant</strong></span>
+                    <span class="date text-xs">11/23/2300</span>
+                </div>
+            </article>
+        {{ /collection:articles }}
+    </div>
+</div>

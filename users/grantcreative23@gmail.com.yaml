@@ -1,0 +1,12 @@
+name: 'Kevin Grant'
+super: true
+id: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
+password_hash: $2y$10$FUAZDOAzMTr2O463079uTu5rY1DAvulv21KA7b4gzcrQOdOH1l4Xu
+preferences:
+  collections:
+    tabletop_game_articles:
+      after_save: continue_editing
+    musician_articles:
+      after_save: continue_editing
+    crypto:
+      after_save: continue_editing

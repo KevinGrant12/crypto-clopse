@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="../css/tailwind.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+</head>
+<body class="text-black text-lg">
+    <header class="fixed top-0 w-screen border-t-2 border-black z-10">
+        <div class="header-main flex items-center justify-between bg-white border-b-2 border-black">
+            <div class="flex items-center">
+                <img class="w-60 px-4 py-2" src="https://cryptoclopse.s3-us-west-1.amazonaws.com/logo.png" alt="cryptoclopse blog logo">
+                <p class="bg-tomato text-white rounded-3xl px-2 py-0 text-sm">Digesting the Crypto Market</p>
+            </div>
+            <div class="flex items-center">
+                <ul class="flex h-12 text-sm">
+                    {{ nav:main_nav }}
+                        <li class="flex items-center"><a class="d-flex px-3" href="{{ url }}">{{ title }}</a></li>
+                    {{ /nav:main_nav }}
+                </ul>
+            </div>
+        </div>
+        <ul class="flex justify-center text-xs text-center w-full bg-whitesmoke">
+            {{taxonomy:categories}}
+                <li class="p-2"><a href="/">{{title}}</a></li>
+            {{/taxonomy:categories}}
+        </ul>
+    </header>
+    <div class="container max-w-screen-xl flex p-8 mt-24">
+        {{ template_content }}
+    </div>
+    <div id="coord-x" class="coord infline-flex flex-col items-center">
+        <span>x:238</span>
+    </div>
+    <div id="coord-y" class="coord inline-flex items-center">
+        <span>y:238</span>
+    </div>
+    <footer class="p-3">
+        <div class="footer-main flex">
+            <ul>
+                <h3>List of Thing</h3>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+            </ul>
+            <ul>
+                <h3>List of Thing</h3>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+                <li>Item of the list</li>
+            </ul>
+        </div>
+        <div class="footer-meta flex">
+            <h4>Do What You Want</h4>
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script></p>
+        </div>
+    </footer>
+</body>
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,3077,3012,512,2010,3794,3945,1839,52,1437,1966,1321,4030,5026,1808" currency="USD" theme="dark" transparent="false" show-symbol-logo="true"></div>
+</html>

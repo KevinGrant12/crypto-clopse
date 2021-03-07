@@ -1,0 +1,38 @@
+<article class="mb-12 max-w-md">
+  <h4 class="mb-4 max-w-md text-2xl font-semibold text-blacksmoke">{{ title }}</h4>
+  <div class="relative mb-1 border-2 border-black rounded-sm">
+      <img src="https://picsum.photos/700/300" alt="">
+  </div>
+  <div class="flex justify-between items-center h-6 w-full text-xs">
+      <div class="flex items-center text-sm text-gray">
+        <span>written by: </span>
+        <p>Kevin Grant</p>
+      </div>
+      <div class="mood-tags flex items-center text-xs">
+          <i class="text-white bg-green rounded-sm px-2 mr-2">Rumble</i>
+          <i class="text-white bg-tomato rounded-sm px-2">Grumble</i>
+      </div>
+      <div class="coin-tags flex items-center text-xs">
+          <i class="coin"></i>
+          <i class="coin"></i>
+      </div>
+      <div class="flex items-center">
+          <div class="post-meta text-gray flex items-center">
+              <i class="flex items-center mr-2">
+                  <svg class="w-4 fill-current text-tomato" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd" />
+                </svg> 40
+              </i>
+              <i class="flex items-center">
+                  <svg class="w-4 fill-current text-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                </svg> 15
+              </i>
+          </div>
+      </div>
+  </div>
+  <div class="text-base">
+      {{ content | safe_truncate:200:...}}
+  </div>
+  <a href="{{ url }}" class="inline-block my-6 px-4 py-2 bg-yellow-200 hover:bg-yellow-300 border-2 border-black rounded-md text-base">Read Article</a>
+</article>

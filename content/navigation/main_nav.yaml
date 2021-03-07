@@ -1,0 +1,8 @@
+title: 'Main Nav'
+tree:
+  -
+    title: Contact
+    url: /contact
+  -
+    title: Resources
+    url: /resources
