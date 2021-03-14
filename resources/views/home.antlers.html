@@ -1,6 +1,9 @@
 <div id="home-page" class="flex justify-between">
     <div class="w-1/12">
-
+        <div class="message-board flex-col">
+            <span class="date">Date Here</span>
+            <p>Hello from the crypoclopse crew. Today there are some things goind on. Tomorrow, there are some other things going on.</p>
+        </div>
     </div>
     <div class="pb-16 w-6/12">
         {{ collection:articles | group_by="date" | limit:1 }}

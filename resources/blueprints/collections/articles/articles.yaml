@@ -11,19 +11,30 @@ sections:
           validate:
             - required
       -
+        handle: featured_image
+        field:
+          mode: grid
+          container: assets
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Featured Image'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
+        handle: key_points
+        field:
+          display: 'Key Points'
+          type: list
+          icon: list
+          listable: hidden
+      -
         handle: content
         field:
           type: markdown
           display: Content
           localizable: true
-      -
-        handle: author
-        field:
-          type: users
-          display: Author
-          default: current
-          localizable: true
-          max_items: 1
       -
         handle: template
         field:
@@ -52,3 +63,24 @@ sections:
           icon: taxonomy
           instructions: 'Select Tag'
           listable: hidden
+      -
+        handle: category
+        field:
+          mode: select
+          taxonomies:
+            - categories
+          display: Category
+          type: terms
+          icon: taxonomy
+          listable: hidden
+  data:
+    display: Data
+    fields:
+      -
+        handle: author
+        field:
+          type: users
+          display: Author
+          default: current
+          localizable: true
+          max_items: 1

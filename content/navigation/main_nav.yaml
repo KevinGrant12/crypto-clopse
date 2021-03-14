@@ -1,8 +1,11 @@
 title: 'Main Nav'
 tree:
   -
-    title: Contact
-    url: /contact
+    title: 'Crypto Gear'
+    url: /crypto-gear
   -
     title: Resources
     url: /resources
+  -
+    title: Contact
+    url: /contact

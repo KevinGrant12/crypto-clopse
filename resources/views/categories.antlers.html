@@ -1,0 +1,13 @@
+<div id="page_{{ current_uri }}">
+	<div class="container max-w-screen-xl p-8 mt-24">
+		<h1 class="text-lg">{{ title }}</h1>
+		<ul>
+			{{ collection:articles category:contains="perspective"}}
+				<li>
+					<h3>{{ title }}</h3>
+					{{ content }}
+				</li>
+			{{ /collection:articles}}
+		</ul>
+	</div>
+</div>
