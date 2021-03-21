@@ -1,8 +1,13 @@
 <div id="home-page" class="flex justify-between">
-    <div class="w-1/12">
+    <div class="w-2/12">
         <div class="message-board flex-col">
-            <span class="date">Date Here</span>
-            <p>Hello from the crypoclopse crew. Today there are some things goind on. Tomorrow, there are some other things going on.</p>
+            <div class="flex items-center justify-between message-board_header bg-whitesmoke px-2">
+                <h3 class="text-base">Daily Greeting</h3>
+                <span class="date text-xs">03/17/2020</span>
+            </div>
+            <div class="message-board_body p-2">
+                <p class="text-sm">Hello from the crypoclopse crew. Today there are some things goind on. Tomorrow, there are some other things going on.</p>
+            </div>
         </div>
     </div>
     <div class="pb-16 w-6/12">
@@ -16,55 +21,10 @@
             <h3 class="text 1-lg mb-8">{{content}}</h3>
             <div class="flex">
                 {{ entries | limit:3 }}
-                    <!-- if not most recent -->
                     {{ partial:blog/article_preview }}
                 {{ /entries }}
             </div>
         {{ /taxonomy:categories }}
-
-        <!-- CRYPTOCLOPSE PORTFOLIO -->
-        <section class="future-partial">
-            <h1 class="text-4xl font-display mb-4">CryptoClopse Portfolio</h1>
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinPriceBlock.js"></script><div id="coinmarketcap-widget-coin-price-block" coins="3077,3012,2010,512" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
-        </section>
-    
-        <h1>Projects.........</h1>
-    
-        <ul class="mt-16">
-            <h3>Homepage Layout</h3>
-            <li>Hero/Recent Post w/info</li>
-            <ul>
-                Latest Posts w/Filter
-                <li>Latest</li>
-                <li>Cat A</li>
-                <li>Cat B</li>
-                <li>Cat C etc.</li>
-            </ul>
-            <li>Categories</li>
-            <li>Call to Action</li>
-            <li>Each category as section with 3 recent posts</li>
-            <li>Email Signup</li>
-            <li>Footer</li>
-        </ul>
-        <br>
-        <ul>
-            <h3>Blog Categories</h3>
-            <li>Graphic Design</li>
-            <li>Writing</li>
-            <li>Coding & Dev</li>
-            <li>Art</li>
-            <li>Blogging</li>
-        </ul>
-
-        <h2>Grid Layout - Cryptos On Fire</h2>
-        <p>Dynamic layout of hottest cryptos of the day.</p>
-    
-        <div class="text-xs font-bold uppercase text-gray-600 space-x-3">
-            <a class="hover:bg-gray-300 p-2 rounded" href="{{ cp_url }}">Control Panel</a>
-            <a class="hover:bg-gray-300 p-2 rounded" href="https://statamic.dev" target="_blank" rel="noopener noreferrer">Documentation</a>
-            <a class="hover:bg-gray-300 p-2 rounded" href="https://statamic.com/support" rel="noopener noreferrer">Get Support</a>
-        </div>
-        {{ content }}
     </div>
     <div class="w-3/12">
         {{ collection:articles taxonomy_tags:contains="featured" }}

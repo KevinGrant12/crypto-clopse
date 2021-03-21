@@ -9,5 +9,6 @@ category:
   - perspective
 template: blog/article
 id: 35b71128-fb96-4733-8a09-650e9ff5b3a4
+published: false
 ---
 About VeChain

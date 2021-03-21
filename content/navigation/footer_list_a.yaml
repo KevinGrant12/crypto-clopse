@@ -1,0 +1,8 @@
+title: 'Footer List A'
+tree:
+  -
+    title: Resources
+    url: resources
+  -
+    title: Archives
+    url: archives

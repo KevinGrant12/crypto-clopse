@@ -3,11 +3,15 @@ title: 'Jumping on the Crypto Rocket'
 author: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
 template: blog/article
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1615681289
+updated_at: 1616031757
 taxonomy_tags:
   - featured
 category:
   - perspective
+key_points:
+  - 'Considering your experience as a trader'
+  - 'Thinking about your goals for growing your networth'
+  - 'Learn how to gain a sense of what the state of the market'
 id: 903a6e6d-eded-4ee1-bdc7-97838e0d1439
 ---
 Jumping into the mysterious world of cryptocurrency can be overwhelming to say the least. An entire new industry is blasting off before your eyes but the keys to the rocket are hidden behind controversial exchanges strange terms like "stop-loss" and "margins." Where and how can you safely enter the market without risking too much of that hard earned cash and dignity?
