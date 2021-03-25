@@ -20,8 +20,10 @@ module.exports = {
       },
       colors: {
         blue: '#07adef',
+        bluedark: '#065677',
         tomato: '#ea3443',
         gray: '#a2a2a2',
+        grayborder: '#b5b5b5',
         green: '#33ce86',
         black: 'black',
         blacksmoke: '#141414',
@@ -29,7 +31,7 @@ module.exports = {
         // redtidedark: '#5a2133',
         whitesmoke: 'whitesmoke',
         white: colors.white,
-        grayborder: '#dadada',
+        whitetrans: 'rgba(255,255,255, 0.8)'
       }
     },
     variants: {

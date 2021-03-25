@@ -13,6 +13,5 @@ key_points:
   - 'Point B'
   - 'Point C'
 id: 94736a4a-16ee-4a8c-a527-79feca23a3e9
-published: false
 ---
 This is the content of the blog article.

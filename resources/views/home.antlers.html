@@ -1,7 +1,7 @@
 <div id="home-page" class="flex justify-between">
     <div class="w-2/12">
         <div class="message-board flex-col">
-            <div class="flex items-center justify-between message-board_header bg-whitesmoke px-2">
+            <div class="flex items-center justify-between message-board_header bg-whitesmoke px-3 rounded-xl border border-grayborder">
                 <h3 class="text-base">Daily Greeting</h3>
                 <span class="date text-xs">03/17/2020</span>
             </div>
@@ -10,7 +10,7 @@
             </div>
         </div>
     </div>
-    <div class="pb-16 w-6/12">
+    <div class="pb-16 w-7/12">
         {{ collection:articles | group_by="date" | limit:1 }}
             {{ partial:blog/article_preview_hero }}
         {{ /collection:articles}}
@@ -26,7 +26,7 @@
             </div>
         {{ /taxonomy:categories }}
     </div>
-    <div class="w-3/12">
+    <div class="w-2/12">
         {{ collection:articles taxonomy_tags:contains="featured" }}
             <article class="top-category border border-grayborder mb-5">
                 <div class="flex justify-between items-center bg-whitesmoke py-2 px-3">

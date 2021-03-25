@@ -1,9 +1,9 @@
 <div class="bg-blue">
-	<div class="container max-w-screen-xl">
+	<div class="container max-w-screen-xl px-4">
 		<ul class="flex text-xs w-full">
 			{{ nav:categories }}
-				<li class="p-2">
-					<a class="px-2 rounded-lg hover:bg-white hover:text-black {{ if is_current }}bg-white text-black{{else}}text-white{{/if}}" href="{{ url }}">{{ title }}</a>
+				<li class="{{ if index === 0 }}pr-1{{ else }}px-1{{ /if }} py-2">
+					<a class="px-2 rounded-lg hover:bg-bluedark font-medium {{ if is_current }}bg-bluedark text-white{{ else }}text-white{{ /if }}" href="{{ url }}">{{ title }}</a>
 				</li>
 			{{ /nav:categories }}
 		</ul>
