@@ -1,5 +1,11 @@
-<ul class="flex justify-center text-xs text-center w-full bg-whitesmoke">
-	{{ taxonomy:categories }}
-		<li class="p-2"><a href="{{ url }}">{{ title }}</a></li>
-	{{ /taxonomy:categories }}
-</ul>
+<div class="bg-blue">
+	<div class="container max-w-screen-xl">
+		<ul class="flex text-xs w-full">
+			{{ nav:categories }}
+				<li class="p-2">
+					<a class="px-2 rounded-lg hover:bg-white hover:text-black {{ if is_current }}bg-white text-black{{else}}text-white{{/if}}" href="{{ url }}">{{ title }}</a>
+				</li>
+			{{ /nav:categories }}
+		</ul>
+	</div>
+</div>

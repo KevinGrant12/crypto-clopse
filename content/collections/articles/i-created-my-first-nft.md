@@ -9,5 +9,6 @@ category:
   - crypto-for-noobs
 template: blog/article
 id: 9ffc6a81-e4ad-4c30-ae34-c941c4f5d706
+published: false
 ---
 The first NFT I created was this: test.

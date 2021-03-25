@@ -23,7 +23,7 @@ module.exports = {
         tomato: '#ea3443',
         gray: '#a2a2a2',
         green: '#33ce86',
-
+        black: 'black',
         blacksmoke: '#141414',
         redtidelight: '#d71f3',
         // redtidedark: '#5a2133',
