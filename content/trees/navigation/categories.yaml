@@ -11,3 +11,6 @@ tree:
   -
     title: 'Latest in Altcoins'
     url: /categories/latest-in-altcoins
+  -
+    title: Test
+    url: test

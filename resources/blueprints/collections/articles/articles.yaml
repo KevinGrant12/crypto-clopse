@@ -35,12 +35,6 @@ sections:
           type: markdown
           display: Content
           localizable: true
-      -
-        handle: template
-        field:
-          type: template
-          display: Template
-          localizable: true
   sidebar:
     display: Sidebar
     fields:
@@ -73,6 +67,14 @@ sections:
           type: terms
           icon: taxonomy
           listable: hidden
+      -
+        handle: categories
+        field:
+          type: terms
+          taxonomies:
+            - categories
+          display: Categories
+          mode: select
   data:
     display: Data
     fields:

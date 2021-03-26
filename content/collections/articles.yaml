@@ -1,7 +1,11 @@
 title: Articles
-template: default
+template: article
 layout: layout
+mount: 9c258450-e3f1-4bba-8676-f75f14cb9ddf
+taxonomies:
+  - categories
 revisions: false
+route: 'articles/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
