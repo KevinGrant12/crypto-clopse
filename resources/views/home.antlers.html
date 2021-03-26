@@ -1,17 +1,13 @@
 <div id="home-page" class="flex justify-between">
-    <div class="w-2/12">
+    <div class="w-1/12">
         <div class="message-board flex-col">
-            <div class="flex items-center justify-between message-board_header bg-whitesmoke px-3 rounded-xl border border-grayborder">
-                <h3 class="text-base">Daily Greeting</h3>
-                <span class="date text-xs">03/17/2020</span>
-            </div>
-            <div class="message-board_body p-2">
-                <p class="text-sm">Hello from the crypoclopse crew. Today there are some things goind on. Tomorrow, there are some other things going on.</p>
-            </div>
+            <h3 class="text-sm font-semibold">Daily Greeting</h3>
+            <div class="date text-xs text-gray mb-2">03/17/2020</div>
+            <p class="text-sm">Hello from the crypoclopse crew. Today there are some things goind on. Tomorrow, there are some other things going on.</p>
         </div>
     </div>
-    <div class="pb-16 w-7/12">
-        {{ collection:articles | group_by="date" | limit:1 }}
+    <div class="pb-16 w-8/12">
+        {{ collection:articles limit="1" }}
             {{ partial:blog/article_preview_hero }}
         {{ /collection:articles }}
         {{ taxonomy:categories }}

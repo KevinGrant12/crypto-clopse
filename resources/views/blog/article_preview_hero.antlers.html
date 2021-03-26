@@ -1,19 +1,18 @@
 <article class="mb-12 hero">
-  <a href="{{ url }}" class="block relative mb-1 border-2 border-black rounded-sm">
-      <img src="https://picsum.photos/800/400" alt="">
+  <a href="{{ url }}" class="block relative mb-1 rounded-sm overflow-hidden">
+      <img src="https://picsum.photos/900/400" alt="">
       <div class="hero-overlay"></div>
-      <div class="absolute top-4 right-4 bg-whitetrans">
-            <p>article</p>
-            <p>tag</p>
+      <div class="absolute top-4 right-4 bg-tomato text-white px-3 text-sm rounded-xl shadow-md">
+            <p>{{ category:title }}</p>
       </div>
-      <div class="flex flex-col absolute left-4 bottom-4">
+      <div class="flex flex-col absolute left-6 bottom-6">
             <h2 class="mb-2 max-w-lg text-6xl font-semibold text-white">{{ title }}</h2>
             <div class="flex items-center text-base text-white">
-                <div class="relative w-8 h-8 mr-3 bg-blue rounded-full border border-white">
-                    <img src="" alt="">
+                <div class="relative w-8 h-8 mr-3 bg-blue rounded-full border border-white overflow-hidden">
+                    <img src="{{ author:photo }}" alt="">
                 </div>
-                <p>Author Name</p>
-                <span class="text-lg mx-6">/</span>
+                <p>{{ author:title }}</p>
+                <span class="text-xl mx-6">/</span>
                 <svg class="w-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>

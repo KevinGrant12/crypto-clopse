@@ -1,0 +1,6 @@
+title: 'Crypto Brands'
+template: crypto_brands/show
+revisions: false
+date_behavior:
+  past: public
+  future: private
