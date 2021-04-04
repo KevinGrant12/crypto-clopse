@@ -42,6 +42,7 @@ module.exports = {
         backgroundColor: ['hover', 'active'],
         textColor: ['hover', 'active'],
         opacity: ['disabled'],
+        transform: ['hover'],
       }
     },
     plugins: [],

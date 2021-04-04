@@ -1,8 +1,34 @@
-title: Asset
-fields:
-  -
-    handle: alt
-    field:
-      display: 'Alt Text'
-      type: text
-      instructions: 'Description of the image'
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: alt
+        field:
+          display: 'Alt Text'
+          type: text
+          instructions: 'Description of the image'
+      -
+        handle: caption
+        field:
+          antlers: false
+          display: Caption
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: photographer
+        field:
+          input_type: text
+          antlers: false
+          display: Photographer
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: photographer_link
+        field:
+          display: 'Photographer Link'
+          type: link
+          icon: link
+          listable: true

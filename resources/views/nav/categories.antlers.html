@@ -3,7 +3,7 @@
 		<ul class="flex text-xs w-full">
 			{{ nav handle="categories"}}
 				<li class="{{ if index === 0 }}pr-1{{ else }}px-1{{ /if }} py-2">
-					<a class="px-2 rounded-lg hover:bg-bluedark font-medium {{ if is_current }}bg-bluedark text-white{{ else }}text-white{{ /if }}" href="{{ url }}">{{ title }}</a>
+					<a class="px-2 rounded-lg hover:bg-bluedark font-semibold {{ if is_current }}bg-bluedark text-white{{ else }}text-white{{ /if }}" href="{{ url }}">{{ title }}</a>
 				</li>
 			{{ /nav }}
 		</ul>
