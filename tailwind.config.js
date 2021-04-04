@@ -16,15 +16,17 @@ module.exports = {
       extend: {},
       fontFamily: {
         'display': ['Fjalla One'],
-        // 'body': ['Open Sans'],
+        'body': ['Karla'],
       },
       colors: {
         blue: '#07adef',
         bluedark: '#065677',
         blueghost: '#edf4ff',
+        blueheader: '#044058',
         tomato: '#ea3443',
         gray: '#a2a2a2',
         grayborder: '#b5b5b5',
+        graybody: '#777777',
         green: '#33ce86',
         black: 'black',
         blacksmoke: '#141414',

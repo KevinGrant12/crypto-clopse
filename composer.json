@@ -5,6 +5,7 @@
     "type": "project",
     "require": {
         "php": "^7.3 || ^8.0",
+        "aerni/social-links": "^2.1",
         "aws/aws-sdk-php": "^3.175",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",

@@ -3,14 +3,11 @@ tree:
     title: Home
     url: /
   -
-    title: 'Crypto for Noobs'
-    url: /categories/crypto-for-noobs
-  -
     title: 'Crypto Spotlight'
     url: /categories/crypto-spotlight
   -
     title: 'Latest in Altcoins'
     url: /categories/latest-in-altcoins
   -
-    title: Test
-    url: test
+    title: 'Innovative Applications'
+    url: /innovative-applications

@@ -7,20 +7,27 @@
         </div>
     </div>
     <div class="pb-16 w-8/12">
+
+        <!-- HERO -->
+        <section>
         {{ collection:articles limit="1" }}
             {{ partial:blog/article_preview_hero }}
         {{ /collection:articles }}
-        {{ taxonomy:categories }}
-            <div class="bg-gray-200">
-                <h2 class="inline-block text-4xl font-display border-b-4 border-blue">{{ title }}</h2>
+        </section>
+
+        <!-- CATEGORIES: Innovative Applications -->
+        <section>
+            <div class="my-12">
+                <h1 class="inline-block mb-4 text-4xl uppercase font-display border-b-4 border-blue">Innovative Applications</h1>
             </div>
-            <h3 class="text 1-lg mb-8">{{content}}</h3>
-            <div class="flex">
-                {{ entries | limit:3 }}
+            
+            {{ collection:articles category:is="innovative-applications" limit="3" }}
+                <div class="flex">
                     {{ partial:blog/article_preview }}
-                {{ /entries }}
-            </div>
-        {{ /taxonomy:categories }}
+                </div>
+            {{ /collection:articles }}
+        </section>
+        
     </div>
     <div class="w-2/12">
         {{ collection:articles taxonomy_tags:contains="featured" }}

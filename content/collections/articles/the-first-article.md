@@ -1,15 +1,16 @@
 ---
-title: 'The First Article'
+title: 'The Title of the First Article Ever Written & Why'
 key_points:
   - 'List from article'
   - 'Other list Item'
   - 'This is still a list'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1616734871
+updated_at: 1616973823
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
-category: crypto-for-noobs
 tags:
   - featured
+category: innovative-applications
+featured_image: assets/articles/test-image.jpg
 id: b9ed52d7-b7ab-45f2-94f0-370f487175c3
 content:
   -
@@ -25,5 +26,5 @@ content:
     content:
       -
         type: text
-        text: 'The first article content'
+        text: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.'
 ---
