@@ -9,11 +9,14 @@
     <div class="pb-16 w-8/12">
 
         <!-- HERO -->
-        <section>
+        <section class="mb-12">
         {{ collection:articles limit="1" }}
             {{ partial:blog/article_preview_hero }}
         {{ /collection:articles }}
         </section>
+
+        <!-- RECENT ARTICLES -->
+        {{ partial:blog/recent_articles }}
 
         <!-- CATEGORIES: Innovative Applications -->
         <section>

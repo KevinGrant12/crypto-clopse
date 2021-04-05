@@ -16,8 +16,13 @@
       </div>
     </div>
     <figure class="mb-6">
-      <img src="{{ featured_image }}" alt="">
-      <figcaption class="text-gray text-sm"></figcaption>
+      <img src="{{ featured_image }}" alt="" class="w-full">
+      <div class="flex items-center justify-between">
+        <figcaption class="text-gray text-md py-2 w-6/12">{{ featured_image:caption }}</figcaption>
+        <div class="w-5/12 flex items-center justify-end">
+          <strong class="mr-2">Photographer:</strong>
+          <a href="{{ featured_image:photographer_link }}" class="hover:underline">{{ featured_image:photographer }}</a>
+        </div>
     </figure>
     <div class="flex">
       <ul class="w-1/2 p-4">
@@ -33,7 +38,7 @@
         {{ /key_points}}
       </ul>
       <ul class="p-4">
-        <h3 class="font-semibold text-2xl mb-2">Cryptocurrencies:</h3>
+        <h3 class="font-semibold text-2xl mb-2">Featured Crypto:</h3>
         {{ collection:crypto_brands }}
           <li class="px-2 py-4 flex items-center">
             <div class="mr-4 w-12">
