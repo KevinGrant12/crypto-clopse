@@ -10,7 +10,7 @@
 
         <!-- HERO -->
         <section class="mb-12">
-        {{ collection:articles limit="1" }}
+        {{ collection:articles sort="date:desc" limit="1" }}
             {{ partial:blog/article_preview_hero }}
         {{ /collection:articles }}
         </section>

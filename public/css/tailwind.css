@@ -545,13 +545,34 @@ video {
   height: auto;
 }
 
-/* This is all you. */
+:root {
+  --display: "Fjalla One";
+}
 
-/* color temp */
+h1, h2, h3, h4 , h5, h6 {
+  font-family: "Fjalla One";
+  font-family: var(--display);
+}
 
-/* pink - #FF5A69 */
+h2 {
+  font-size: 2.5rem;
+}
 
-/* tomato - #ea3443 */
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
 
 #coinmarketcap-widget-marquee {
   position: fixed;

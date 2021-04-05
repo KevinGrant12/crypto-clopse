@@ -23,6 +23,7 @@ sections:
           icon: assets
           listable: hidden
           folder: assets/articles
+          instructions: 'Size: 1000 x 500px'
       -
         handle: key_points
         field:

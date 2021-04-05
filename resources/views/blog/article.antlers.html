@@ -1,18 +1,30 @@
 <div class="container flex justify-between py-8">
-  <article class="w-9/12">
-    <h1 class="mb-4 font-display text-5xl">{{ title }}</h1>
-    <div class="flex items-center mb-6">
-      <div class="flex mr-8">
-        <svg class="w-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-        </svg>
-        <div>{{ author:title }}</div>
+  <article class="w-2/3">
+    <h1 class="mb-4 font-display text-5xl leading-tight">{{ title }}</h1>
+    <div class="flex items-center justify-between mb-4 text-base">
+      <div class="flex items-center">
+        <div class="relative w-12 h-12 mr-3 bg-blue rounded-full border border-white overflow-hidden">
+            <img src="{{ author:photo }}" alt="">
+        </div>
+        <div>
+          <div class="flex items-center">
+            <p><strong>{{ author:title }}</strong></p>
+          </div>
+          <div class="flex items-center">
+            <p class="text-gray"><strong>{{ date }}</strong></p>
+          </div>
+        </div>
       </div>
-      <div class="flex items-center {{ if display }}mr-6{{ /if }}">
-        <svg class="w-4 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-        <div>{{ date }}</div>
+      <div class="flex">
+        <div>
+          <!-- comments -->
+          <!-- alert signup -->
+        </div>
+        <div class="links">
+          <!-- social -->
+          <!-- email -->
+          <!-- copy article link -->
+        </div>
       </div>
     </div>
     <figure class="mb-6">
@@ -20,8 +32,10 @@
       <div class="flex items-center justify-between">
         <figcaption class="text-gray text-md py-2 w-6/12">{{ featured_image:caption }}</figcaption>
         <div class="w-5/12 flex items-center justify-end">
-          <strong class="mr-2">Photographer:</strong>
-          <a href="{{ featured_image:photographer_link }}" class="hover:underline">{{ featured_image:photographer }}</a>
+          {{ if featured_image:photographer }}
+            <strong class="mr-2">Photographer:</strong>
+            <a href="{{ featured_image:photographer_link }}" class="hover:underline">{{ featured_image:photographer }}</a>
+          {{ /if }}
         </div>
     </figure>
     <div class="flex">
@@ -39,7 +53,7 @@
       </ul>
       <ul class="p-4">
         <h3 class="font-semibold text-2xl mb-2">Featured Crypto:</h3>
-        {{ collection:crypto_brands }}
+        {{ crypto_brands }}
           <li class="px-2 py-4 flex items-center">
             <div class="mr-4 w-12">
               {{ logo }}
@@ -49,7 +63,7 @@
               <p class="text-sm text-gray">Small description of coin used</p>
             </a>
           </li>
-        {{ /collection:crypto_brands }}
+        {{ /crypto_brands }}
       </div>
     </ul>
     <div class="py-4">
