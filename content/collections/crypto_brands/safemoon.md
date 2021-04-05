@@ -1,8 +1,8 @@
 ---
 title: SafeMoon
-description: 'The SafeMoon Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, & Burn.'
+description: 'The SafeMoon Protocol is a community driven, fair launched DeFi Token.'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617581616
+updated_at: 1617666253
 logo: |-
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 173.11 173.11">
     <defs>

@@ -53,16 +53,16 @@
           </li>
         {{ /key_points}}
       </ul>
-      <ul class="p-4">
+      <ul class="w-1/2 p-4">
         <h3 class="font-semibold text-2xl mb-2">Featured Crypto:</h3>
         {{ crypto_brands }}
           <li class="px-2 py-4 flex items-center">
-            <div class="mr-4 w-12">
+            <div class="mr-4 w-12 flex-shrink-0">
               {{ logo }}
             </div>
             <a href="" class="hover:underline">
-              <div class="text-base font-semibold">Coin Name</div>
-              <div class="text-sm text-gray">Small description of coin used</div>
+              <div class="text-base font-semibold">{{ title }}</div>
+              <div class="text-sm text-gray">{{ description }}</div>
             </a>
           </li>
         {{ /crypto_brands }}

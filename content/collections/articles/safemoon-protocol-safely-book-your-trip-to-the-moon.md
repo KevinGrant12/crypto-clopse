@@ -10,7 +10,7 @@ tags:
 crypto_brands:
   - 9110f676-be85-44db-bfad-6d4251222c43
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617665725
+updated_at: 1617665994
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/article-safemoon_safemoon-protocol.jpg
 id: b4683e62-5677-4b45-8c55-eefa0c1475b2
@@ -51,7 +51,33 @@ content:
     content:
       -
         type: text
-        text: 'Since its initial launch on PancakeSwap in early March of 2021, the SafeMoon community has grown to a wapping 285,000 holders with hundreds of more followers on social avenues like Twitter and Discord. SafeMoon is registered as an LLC and the team has been highly active within the growing community including holding many AMA''s ( ask me anything ) and rapidly updating their website with statistics, a roadmap, merchandise, educational features, and much more. Ok, sounds like a white-hot start, but will the value of the coin grow beyond just market speculation?'
+        text: 'Since its initial launch on PancakeSwap in early March of 2021, the SafeMoon community has grown to a wapping 285,000 holders with hundreds of more followers on social avenues like '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://twitter.com/safemoon'
+              target: _blank
+              rel: null
+        text: Twitte
+      -
+        type: text
+        text: 'r and '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://discord.com/'
+              target: _blank
+              rel: null
+        text: Discord
+      -
+        type: text
+        text: '. SafeMoon is registered as an LLC and the team has been highly active within the growing community including holding many AMA''s ( ask me anything ) and rapidly updating their website with statistics, a roadmap, merchandise, educational features, and much more. Ok, sounds like a white-hot start, but will the value of the coin grow beyond just market speculation?'
   -
     type: heading
     attrs:
@@ -257,7 +283,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Lead Developer'
+                    text: Developer
           -
             type: table_cell
             attrs:
