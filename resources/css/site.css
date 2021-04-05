@@ -1,9 +1,15 @@
 :root {
+
+  /* Fonts */
   --display: "Fjalla One";
+
+  /* Colors */
+  --blue: #07adef;
 }
 
 h1, h2, h3, h4 , h5, h6 {
   font-family: var(--display);
+  margin: 0;
 }
 
 h2 {
@@ -26,6 +32,18 @@ h6 {
   font-size: 1rem;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--blue);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #coinmarketcap-widget-marquee {
   position: fixed;
   bottom: 0;
@@ -43,4 +61,14 @@ h6 {
 .disabled {
   opacity: 50%;
   pointer-events: none;
+}
+
+/* ARTICLES */
+.article-content h4 {
+  color: var(--blue);
+}
+
+.article-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }

@@ -1,5 +1,6 @@
 <div class="container flex justify-between py-8">
-  <article class="w-2/3">
+  <div class="2/12"></div>
+  <article class="w-7/12">
     <h1 class="mb-4 font-display text-5xl leading-tight">{{ title }}</h1>
     <div class="flex items-center justify-between mb-4 text-base">
       <div class="flex items-center">
@@ -8,17 +9,17 @@
         </div>
         <div>
           <div class="flex items-center">
-            <p><strong>{{ author:title }}</strong></p>
+            <div><strong>{{ author:title }}</strong></div>
           </div>
           <div class="flex items-center">
-            <p class="text-gray text-sm"><strong>{{ date }}</strong></p>
+            <div class="text-gray text-sm"><strong>{{ date }}</strong></div>
           </div>
         </div>
       </div>
       <div class="flex">
         <ul class="flex items-center">
-          <li class="ml-2"><a href="#">{{ svg src="chat" class="w-6" }}</a></li>
-          <li class="ml-2"><a href="#">{{ svg src="alert" class="w-6" }}</a></li>
+          <li class="ml-2"><a href="#">{{ svg src="chat" class="w-6 text-gray" }}</a></li>
+          <li class="ml-2"><a href="#">{{ svg src="alert" class="w-6 text-gray" }}</a></li>
         </ul>
         <ul class="flex items-center">
           <li class="ml-2"><a href="{{ social_links:facebook }}">{{ svg src="facebook" class="fill-current text-blue w-6" }}</a></li>
@@ -28,7 +29,7 @@
         </ul>
       </div>
     </div>
-    <figure class="mb-6">
+    <figure class="mb-2">
       <img src="{{ featured_image }}" alt="{{ alt_text }}" class="w-full">
       <div class="flex items-center justify-between">
         <figcaption class="text-gray text-md py-2 w-7/12">{{ featured_image:caption }}</figcaption>
@@ -39,11 +40,11 @@
           {{ /if }}
         </div>
     </figure>
-    <div class="flex">
+    <div class="flex mb-4 border-b border-grayborder">
       <ul class="w-1/2 p-4">
         <h3 class="font-semibold text-2xl mb-2">Key topics in article:</h3>
         {{ key_points }}
-          <li class="flex items-center text-xl p-2">
+          <li class="flex text-xl p-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path class="fill-current text-tomato" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
               <path class="fill-current text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
@@ -61,14 +62,16 @@
             </div>
             <a href="" class="hover:underline">
               <div class="text-base font-semibold">Coin Name</div>
-              <p class="text-sm text-gray">Small description of coin used</p>
+              <div class="text-sm text-gray">Small description of coin used</div>
             </a>
           </li>
         {{ /crypto_brands }}
       </div>
     </ul>
     <div class="py-4">
-      {{ content }}
+      <div class="article-content">
+        {{ content }}
+      </div>
     </div>
   </article>
   <div class="w-2/12">
