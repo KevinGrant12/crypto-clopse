@@ -25,7 +25,7 @@ module.exports = {
         blueheader: '#044058',
         tomato: '#ea3443',
         gray: 'gray',
-        grayborder: '#b5b5b5',
+        grayborder: 'lightgray',
         graybody: '#777777',
         green: '#33ce86',
         black: 'black',
