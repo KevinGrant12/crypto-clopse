@@ -11,27 +11,30 @@
             <p><strong>{{ author:title }}</strong></p>
           </div>
           <div class="flex items-center">
-            <p class="text-gray"><strong>{{ date }}</strong></p>
+            <p class="text-gray text-sm"><strong>{{ date }}</strong></p>
           </div>
         </div>
       </div>
       <div class="flex">
-        <div>
-          <!-- comments -->
+        <ul class="flex items-center">
+          <li class="ml-2"><a href="#">{{ svg src="chat" class="w-6" }}</a></li>
+          <li class="ml-2"><a href="#">{{ svg src="alert" class="w-6" }}</a></li>
           <!-- alert signup -->
-        </div>
-        <div class="links">
-          <!-- social -->
+        </ul>
+        <ul class="flex items-center">
+          <li class="ml-2"><a href="{{ social_links:facebook }}">{{ svg src="facebook" class="fill-current text-blue w-6" }}</a></li>
+          <li class="ml-2"><a href="{{ social_links:twitter }}">{{ svg src="twitter" class="fill-current text-blue w-6" }}</a></li>
+          
           <!-- email -->
           <!-- copy article link -->
-        </div>
+        </ul>
       </div>
     </div>
     <figure class="mb-6">
       <img src="{{ featured_image }}" alt="" class="w-full">
       <div class="flex items-center justify-between">
-        <figcaption class="text-gray text-md py-2 w-6/12">{{ featured_image:caption }}</figcaption>
-        <div class="w-5/12 flex items-center justify-end">
+        <figcaption class="text-gray text-md py-2 w-7/12">{{ featured_image:caption }}</figcaption>
+        <div class="w-4/12 flex items-center justify-end">
           {{ if featured_image:photographer }}
             <strong class="mr-2">Photographer:</strong>
             <a href="{{ featured_image:photographer_link }}" class="hover:underline">{{ featured_image:photographer }}</a>
