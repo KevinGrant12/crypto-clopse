@@ -10,3 +10,5 @@ preferences:
       after_save: continue_editing
     crypto:
       after_save: continue_editing
+    crypto_brands:
+      after_save: continue_editing

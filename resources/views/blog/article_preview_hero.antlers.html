@@ -4,10 +4,10 @@
       <div class="hero-overlay"></div>
       <div class="absolute top-4 right-4 flex items-center">
         <div class="flex items-center">
-          <ul>
+          <ul class="flex items-center">
             {{ collection:crypto_brands }}
-              <li class="mx-2 rounded-full shadow-md">{{ partial:components/coin }}</li>
-              {{ /collection:crypto_brands }}
+              <li class="mx-1 rounded-full shadow-md">{{ partial:components/coin }}</li>
+            {{ /collection:crypto_brands }}
           </ul>
         </div>
         <div class="bg-tomato text-white px-3 ml-2 text-sm rounded-xl shadow-md">
