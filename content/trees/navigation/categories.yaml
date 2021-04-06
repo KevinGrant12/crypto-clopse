@@ -4,10 +4,4 @@ tree:
     url: /
   -
     title: 'Crypto Spotlight'
-    url: /categories/crypto-spotlight
-  -
-    title: 'Latest in Altcoins'
-    url: /categories/latest-in-altcoins
-  -
-    title: 'Innovative Applications'
-    url: /innovative-applications
+    url: /crypto-spotlight
