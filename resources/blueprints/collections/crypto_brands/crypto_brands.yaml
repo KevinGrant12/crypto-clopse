@@ -19,20 +19,18 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: logo
+        handle: logo-image
         field:
-          theme: material
-          mode: htmlmixed
-          indent_type: tabs
-          indent_size: 4
-          key_map: default
-          line_numbers: true
-          line_wrapping: true
+          mode: grid
+          container: assets
+          restrict: true
+          allow_uploads: true
+          max_files: 1
           display: Logo
-          type: code
-          icon: code
-          instructions: 'Past SVG code here.'
+          type: assets
+          icon: assets
           listable: hidden
+          folder: assets/brands
   sidebar:
     display: Sidebar
     fields:

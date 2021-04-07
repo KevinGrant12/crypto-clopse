@@ -39,6 +39,7 @@ logo: |-
     </g>
   </svg>
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617581826
+updated_at: 1617751129
+logo-image: assets/brands/vechain-vet-logo.svg
 id: afef37f8-a84a-4415-96c0-ca9ae8e4cbb8
 ---

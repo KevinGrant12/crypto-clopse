@@ -2,8 +2,13 @@
 
   <!-- DATA -->
   <div class="w-4/6">
-    <h2 class="mb-2 max-w-md text-2xl font-semibold text-blacksmoke">{{ title }}</h2>
-    <p class="mb-4 text-base text-gray">Article Preview article preview article preview Article Preview article preview article preview Article Preview article preview article preview</p>
+    <a href="{{ url }}">
+      <h2 class="mb-2 max-w-md text-2xl font-semibold text-blacksmoke">{{ title }}</h2>
+    </a>
+    <a href="{{ url }}">
+      <p class="mb-4 text-base text-gray">Article Preview article preview article preview Article Preview article preview article preview Article Preview article preview article preview</p>
+
+    </a>
     {{ partial:widgets/meta display="flex items-center" }}
   </div>
 

@@ -1,11 +1,4 @@
 <div id="home-page" class="flex justify-between">
-    <div class="w-1/12">
-        <div class="message-board flex-col">
-            <h3 class="text-sm font-semibold">Daily Greeting</h3>
-            <div class="date text-xs text-gray mb-2">04/05/2021</div>
-            <p class="text-sm">Greetings crypto enthusiasts, noobs, and investors! I am the Cryptoclopse - a gnarly beast here to rumble and grumble about the latest in the crypto market. Bare with me as I build a killer website designed to provide you a bespoke look into the world of crypto!</p>
-        </div>
-    </div>
     <div class="pb-16 w-8/12">
 
         <!-- HERO -->
@@ -34,22 +27,12 @@
         </section>
         
     </div>
-    <div class="w-2/12">
-        {{#
-            {{ collection:articles taxonomy_tags:contains="featured" }}
-                <article class="top-category border border-grayborder mb-5">
-                    <div class="flex justify-between items-center bg-whitesmoke py-2 px-3">
-                        <h3 class="font-display font-bold">{{ title }}</h3>
-                        <p class="text-xs text-blue">Category Name</p>
-                    </div>
-                    <div class="p-3">
-                        <p>This is the article content. Content will go here and stuff and things.</p>
-                        <span class="author text-xs mr-3"><strong>Kevin Grant</strong></span>
-                        <span class="date text-xs">11/23/2300</span>
-                    </div>
-                </article>
-            {{ /collection:articles }}
-        #}}
+    <div class="w-1/4">
+
+        <!-- Featured Articles -->
+        {{ collection from="articles" tags:contains="featured" }}
+            {{ partial:widgets/featured}}
+        {{ /collection }}
 
         <!-- Amazon Affiliate -->
         <div class="my-8">

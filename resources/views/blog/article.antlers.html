@@ -5,7 +5,7 @@
     <div class="flex items-center justify-between mb-4 text-base">
       <div class="flex items-center">
         <div class="relative w-12 h-12 mr-3 bg-blue rounded-full border border-white overflow-hidden">
-            <img src="{{ author:photo }}" alt="">
+            <img src="{{ author:photo }}" alt="{{ author:photo:alt }}">
         </div>
         <div>
           <div class="flex items-center">
@@ -30,7 +30,7 @@
       </div>
     </div>
     <figure class="mb-2">
-      <img src="{{ featured_image }}" alt="{{ alt_text }}" class="w-full">
+      <img src="{{ featured_image }}" alt="{{ featured_image:alt }}" class="w-full">
       <div class="flex items-center justify-between">
         <figcaption class="text-gray text-md py-2 w-7/12">{{ featured_image:caption }}</figcaption>
         <div class="w-4/12 flex items-center justify-end">
@@ -58,7 +58,7 @@
         {{ crypto_brands }}
           <li class="px-2 py-4 flex items-center">
             <div class="mr-4 w-12 flex-shrink-0">
-              {{ logo }}
+              <img src="{{ logo-image }}" alt="{{ logo-image:alt }}">
             </div>
             <a href="" class="hover:underline">
               <div class="text-base font-semibold">{{ title }}</div>

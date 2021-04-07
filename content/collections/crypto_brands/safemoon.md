@@ -2,7 +2,7 @@
 title: SafeMoon
 description: 'The SafeMoon Protocol is a community driven, fair launched DeFi Token.'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617666253
+updated_at: 1617753052
 logo: |-
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 173.11 173.11">
     <defs>
@@ -46,5 +46,6 @@ logo: |-
       </g>
     </g>
   </svg>
+logo-image: assets/brands/safemoon.svg
 id: 9110f676-be85-44db-bfad-6d4251222c43
 ---
