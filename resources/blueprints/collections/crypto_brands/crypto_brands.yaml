@@ -31,6 +31,13 @@ sections:
           icon: assets
           listable: hidden
           folder: assets/brands
+      -
+        handle: brand_link
+        field:
+          display: 'Brand Link'
+          type: link
+          icon: link
+          listable: hidden
   sidebar:
     display: Sidebar
     fields:

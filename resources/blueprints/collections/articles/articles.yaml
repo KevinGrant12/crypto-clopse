@@ -119,3 +119,10 @@ sections:
           type: entries
           icon: entries
           listable: hidden
+      -
+        handle: resources
+        field:
+          display: Resources
+          type: list
+          icon: list
+          listable: hidden

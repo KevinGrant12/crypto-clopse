@@ -10,7 +10,11 @@
 
         <!-- RECENT ARTICLES -->
         <div class="border-t border-b border-grayborder">
-            {{ partial:blog/recent_articles }}
+            <div class="flex -mx-4 py-8">
+                {{ collection:articles limit="3" }}
+                    {{ partial:blog/recent_article }}
+                {{ /collection:articles }}
+            </div>
         </div>
 
         <!-- CATEGORIES: Innovative Applications -->

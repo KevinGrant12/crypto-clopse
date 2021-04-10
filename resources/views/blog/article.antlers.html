@@ -58,9 +58,9 @@
         {{ crypto_brands }}
           <li class="px-2 py-4 flex items-center">
             <div class="mr-4 w-12 flex-shrink-0">
-              <img src="{{ logo-image }}" alt="{{ logo-image:alt }}">
+              {{ partial:components/coin where="article" }}
             </div>
-            <a href="" class="hover:underline">
+            <a href="{{ brand_link }}" class="hover:underline">
               <div class="text-base font-semibold">{{ title }}</div>
               <div class="text-sm text-gray">{{ description }}</div>
             </a>

@@ -1,6 +1,6 @@
 ---
 title: VeChain
-description: 'VeChain (VeChainThor) is a blockchain platform designed to augment supply chain management and business processes. Its purpose is to streamline the data flow for complex supply chains by using DLT ( distributed ledger technology ).'
+description: 'VeChain (VeChain Thor) is a blockchain designed to augment supply chain management and business processes.'
 logo: |-
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000.04 1887.97">
     <defs>
@@ -39,7 +39,8 @@ logo: |-
     </g>
   </svg>
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617751129
+updated_at: 1618016331
 logo-image: assets/brands/vechain-vet-logo.svg
+brand_link: 'https://www.vechain.org/'
 id: afef37f8-a84a-4415-96c0-ca9ae8e4cbb8
 ---
