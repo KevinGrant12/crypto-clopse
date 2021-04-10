@@ -1,7 +1,7 @@
 ---
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618037602
+updated_at: 1618038939
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -230,19 +230,37 @@ content:
     content:
       -
         type: text
-        text: 'Low computation power required to achieve the network security and consensus integrity'
+        marks:
+          -
+            type: bold
+        text: 'Minimal computation power'
+      -
+        type: text
+        text: ' is required to maintain network security and achieve consensus integrity'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Controlled via the built-in smart contract, hard forks can be avoided in case authority masternodes fail to upgrade'
+        marks:
+          -
+            type: bold
+        text: 'Authority masternode operator'
+      -
+        type: text
+        text: ' identities are rigorously verified by the Foundation'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'All Authority Masternode Operator identities are strictly verified by the Foundation'
+        marks:
+          -
+            type: bold
+        text: 'Built-in smart contract'
+      -
+        type: text
+        text: ' acts as a controller while hard forks can be avoided in case authority masternodes fail to upgrade'
   -
     type: heading
     attrs:
@@ -256,7 +274,7 @@ content:
     content:
       -
         type: text
-        text: 'A governance model with transparency and operational efficiency enables continual and rapid innovation, while resulting in consensus and decisions that balance the views of all stakeholders in the ecosystem. Community-elected Steering Committee facilitates decision making and execution supported by the on-chain governance mechanism.'
+        text: 'Rapid innovation is the heart of VeChains governance model. It is fueled by transparency, efficiency, and operational effectiveness. A steering committee -elected by the community- handles decision making and execution of operations. The input of the stakeholders are taken into consideration which helps keep balance and order in the ecosystem.'
   -
     type: heading
     attrs:
