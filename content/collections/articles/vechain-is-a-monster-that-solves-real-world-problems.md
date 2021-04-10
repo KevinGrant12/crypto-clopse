@@ -1,7 +1,7 @@
 ---
 title: 'VeChain: A Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618029066
+updated_at: 1618037011
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -218,19 +218,6 @@ content:
         type: text
         text: 'Users can set dependencies to ensure the execution order is handled properly. If a transaction specifies a dependency, it will not be executed until the required transaction is processed.'
   -
-    type: paragraph
-  -
-    type: blockquote
-    content:
-      -
-        type: paragraph
-        content:
-          -
-            type: text
-            text: 'Meta-transaction features native to VeChain Thor blockchain’s core protocol, such as multi-party payment, multi-task transaction, controllable transaction lifecycle, transaction dependency, make the development more user-friendly for enterprise adoption.'
-  -
-    type: paragraph
-  -
     type: heading
     attrs:
       level: 4
@@ -297,17 +284,44 @@ content:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: 'VerifyCar App'
+        text: 'BMW''s '
       -
-        type: hard_break
+        type: text
         marks:
           -
-            type: bold
+            type: link
+            attrs:
+              href: 'https://www.ledgerinsights.com/bmw-blockchain-car-mileage-vechainthor-verifycar/'
+              target: _blank
+              rel: null
+        text: VerifyCar
+      -
+        type: text
+        text: ' application was developed to prevent mileage fraud that is causing north of $6 billion in damages annually. Information is sent periodically from a sim card nested in the vehicle and is stored on the VeChainThor blockchain. Additionally, things like oil changes, transactions, accident reports and insurance claims are also stored as hashes on the blockchain. The app allows owners and other parties to verify vehicle vitals ( woa ) and events surrounding the car throughout its lifetime.'
   -
     type: paragraph
+  -
+    type: blockquote
+    content:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Co-Founder and CEO Sun Lu has over 15 years of experience as an IT executive serving Fortune 500 companies. He is also the former CIO of world-renowned Louis Vuitton Greater China. '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://www.youtube.com/watch?v=aEzFBkt8UA8&t=746s'
+                  target: _blank
+                  rel: null
+            text: 'Recent Interview with Sunny Lu'
+          -
+            type: text
+            text: .
   -
     type: paragraph
     content:

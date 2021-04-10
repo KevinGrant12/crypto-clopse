@@ -1,0 +1,18 @@
+title: 'Something Interesting'
+fields:
+  -
+    handle: content
+    field:
+      antlers: false
+      display: Content
+      type: textarea
+      icon: textarea
+      listable: hidden
+  -
+    handle: template
+    field:
+      hide_partials: true
+      display: Template
+      type: template
+      icon: template
+      listable: hidden
