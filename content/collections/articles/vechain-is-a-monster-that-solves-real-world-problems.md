@@ -1,7 +1,7 @@
 ---
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618077052
+updated_at: 1618077389
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -14,6 +14,7 @@ tags:
   - featured
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/002_spotlight_vechain.jpg
+preview: 'With its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption.'
 id: 6e750111-0f4e-43c0-9b37-c1c4b17e5612
 content:
   -
@@ -473,27 +474,40 @@ content:
         text: 'As you can see, with its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption. Not only does it champion the ability to defeat complex data, but it also strives to create an innovative and positive impact on the world.'
       -
         type: hard_break
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Looking for other cryptos with a positive impact?'
-      -
-        type: hard_break
-      -
-        type: text
-        text: 'Checkout '
+  -
+    type: paragraph
+    content:
       -
         type: text
         marks:
           -
-            type: link
-            attrs:
-              href: 'http://cryptoclopse.com/articles/safemoon-protocol-secure-your-rocket-ride-to-the-moon'
-              target: _blank
-              rel: null
-        text: SafeMoon
+            type: bold
+        text: 'Something Extra'
+  -
+    type: blockquote
+    content:
       -
-        type: text
-        text: ' and how their leadership is striving to create stable growth for regular people like me and you.'
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Looking for other cryptos with a positive impact?'
+          -
+            type: hard_break
+          -
+            type: text
+            text: 'Checkout '
+          -
+            type: text
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'http://cryptoclopse.com/articles/safemoon-protocol-secure-your-rocket-ride-to-the-moon'
+                  target: _blank
+                  rel: null
+            text: SafeMoon
+          -
+            type: text
+            text: ' and how their leadership is striving to create stable growth for regular people like me and you.'
 ---

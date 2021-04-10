@@ -32,6 +32,14 @@ sections:
           icon: list
           listable: hidden
       -
+        handle: preview
+        field:
+          antlers: false
+          display: Preview
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
         handle: content
         field:
           always_show_set_button: false
