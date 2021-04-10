@@ -1,7 +1,7 @@
 ---
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618038939
+updated_at: 1618077052
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -133,6 +133,27 @@ content:
       -
         type: text
         text: ', VeChain may be the next rocket to the moon. But what makes it so explosive?'
+      -
+        type: hard_break
+      -
+        type: hard_break
+      -
+        type: image
+        attrs:
+          src: 'asset::assets::assets/art/v-boy.png'
+          alt: 'V-boy custom vechain hero holding thors hammer and tossing vethor tokens'
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:500138:0x377f2f94a4bc0ebab9ca4bdb2f924b26a8fcc235'
+              target: _blank
+              rel: null
+          -
+            type: bold
+        text: 'Buy this NFT'
   -
     type: heading
     attrs:
@@ -230,6 +251,12 @@ content:
     content:
       -
         type: text
+        text: 'Authority Masternode Operators have an aligned interest in the development of the VeChain ecosystem and they maintain the VeChainThor protocol based on the Foundation''s governance policy. PoA addresses common enterprise concerns of inefficient upgrades and wasted energy.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
         marks:
           -
             type: bold
@@ -274,7 +301,7 @@ content:
     content:
       -
         type: text
-        text: 'Rapid innovation is the heart of VeChains governance model. It is fueled by transparency, efficiency, and operational effectiveness. A steering committee -elected by the community- handles decision making and execution of operations. The input of the stakeholders are taken into consideration which helps keep balance and order in the ecosystem.'
+        text: 'Rapid innovation is the heart of VeChains governance model. It is fueled by transparency, efficiency, and operational effectiveness. A steering committee -elected by the community- handles decision making and execution of operations. Stakeholder input is a core principal and helps maintain balance and order in the ecosystem.'
   -
     type: heading
     attrs:
@@ -317,6 +344,99 @@ content:
         type: text
         text: ' application was developed to prevent mileage fraud that is causing north of $6 billion in damages annually. Information is sent periodically from a sim card nested in the vehicle and is stored on the VeChainThor blockchain. Additionally, things like oil changes, transactions, accident reports and insurance claims are also stored as hashes on the blockchain. The app allows owners and other parties to verify vehicle vitals ( woa ) and events surrounding the car throughout its lifetime.'
   -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Sam’s Club in China ( subsidiary of Walmart )'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'In 2019, PricewaterhouseCoopers ( '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://cointelegraph.com/tags/pwc'
+              target: null
+              rel: null
+        text: PwC
+      -
+        type: text
+        text: ' ) China and Walmart China began development on a traceability platform on the VeChainThor blockchain called the '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://cointelegraph.com/news/walmart-china-subsidiary-teams-up-with-vechain-to-trace-food-products'
+              target: _blank
+              rel: null
+        text: 'Walmart China Blockchain Traceability Platform.'
+      -
+        type: text
+        text: ' The app is designed to track the life and treatment of food from farm to table. Consumers are now able to scan a barcode on their product and see verifiable information about where that product came from. In recent years, a pandemic of deceitful terms like "Organic" and "Farm Fresh" have plagued consumers. The new traceability platform aims to show people they can trust their favorite grocery stores again.'
+  -
+    type: heading
+    attrs:
+      level: 4
+    content:
+      -
+        type: text
+        text: 'Bayer China'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.coindesk.com/vechain-drug-tracking-platform-bayer'
+              target: _blank
+              rel: null
+        text: CSecure
+      -
+        type: text
+        text: ' is built on VeChains proprietary blockchain-as-a-service (BaaS) system called '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://www.vechain.com/product/toolchain'
+              target: _blank
+              rel: null
+        text: ToolChain
+      -
+        type: text
+        text: '. It is another traceability platform, but this one targets the pharmaceutical supply chain industry. Everybody loves theirs drugs, and we know this industry is riddled with counterfeits, crooks, and cooks. With CSecure, batch numbers relating to a specific drug are sent to the blockchain. This allows tracking of each drug  throughout its supply chain journey. It uses a combination of timestamps and user-identification information to trace the drugs at different checkpoints. We sure could use this in America!'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'There are hundreds more where those came from. For a deeper look at some of VeChains more prominent partnerships, check out this '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'https://usethebitcoin.com/list-of-vechain-partnerships/'
+              target: _blank
+              rel: null
+        text: article.
+  -
     type: paragraph
   -
     type: blockquote
@@ -336,14 +456,44 @@ content:
                   href: 'https://www.youtube.com/watch?v=aEzFBkt8UA8&t=746s'
                   target: _blank
                   rel: null
-            text: 'Recent Interview with Sunny Lu'
-          -
-            type: text
-            text: .
+            text: 'Recent Interview with Sunny Lu.'
+  -
+    type: paragraph
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'With its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption. '
+        text: 'Sunny Lu''s ultimate vision and use-case for VeChain is to utilize the blockchain to record positive actions that people take and reward them in return. Things like cleaning the ocean, reducing carbon emissions, and helping the world in other ways will reward people and thus create a positive feedback loop that could resonate across the globe.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'As you can see, with its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption. Not only does it champion the ability to defeat complex data, but it also strives to create an innovative and positive impact on the world.'
+      -
+        type: hard_break
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Looking for other cryptos with a positive impact?'
+      -
+        type: hard_break
+      -
+        type: text
+        text: 'Checkout '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'http://cryptoclopse.com/articles/safemoon-protocol-secure-your-rocket-ride-to-the-moon'
+              target: _blank
+              rel: null
+        text: SafeMoon
+      -
+        type: text
+        text: ' and how their leadership is striving to create stable growth for regular people like me and you.'
 ---
