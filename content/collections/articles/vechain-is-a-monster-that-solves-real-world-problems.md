@@ -1,7 +1,7 @@
 ---
 title: 'VeChain: A Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618020059
+updated_at: 1618029066
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -13,6 +13,7 @@ category: crypto-spotlight
 tags:
   - featured
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
+featured_image: assets/articles/002_spotlight_vechain.jpg
 id: 6e750111-0f4e-43c0-9b37-c1c4b17e5612
 content:
   -
@@ -305,56 +306,6 @@ content:
         marks:
           -
             type: bold
-  -
-    type: paragraph
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Through its use of distributed ledger technology ( DLT ),'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Its goal is to streamline these processes and information flow for complex supply chains through the use of distributed ledger technology (DLT).'
-  -
-    type: paragraph
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: "Distributed ledger technology (DLT) is a digital system for recording the\_"
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://searchcio.techtarget.com/definition/transaction'
-              target: null
-              rel: null
-        text: transaction
-      -
-        type: text
-        text: "\_of assets in which the transactions and their details are recorded in multiple places at the same time. Unlike traditional databases, distributed ledgers have no central\_"
-      -
-        type: text
-        marks:
-          -
-            type: link
-            attrs:
-              href: 'https://whatis.techtarget.com/definition/data-store'
-              target: null
-              rel: null
-        text: 'data store'
-      -
-        type: text
-        text: "\_or administration functionality."
-  -
-    type: paragraph
   -
     type: paragraph
   -
