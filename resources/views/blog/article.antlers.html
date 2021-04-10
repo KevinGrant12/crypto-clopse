@@ -1,6 +1,5 @@
-<div class="container flex justify-between py-8">
-  <div class="2/12"></div>
-  <article class="w-7/12">
+<div class="container flex flex-col lg:flex-row justify-between py-8">
+  <article class="w-full lg:w-8/12">
     <h1 class="mb-4 font-display text-5xl leading-tight">{{ title }}</h1>
     <div class="flex items-center justify-between mb-4 text-base">
       <div class="flex items-center">
@@ -40,11 +39,11 @@
           {{ /if }}
         </div>
     </figure>
-    <div class="flex mb-4 border-b border-grayborder">
-      <ul class="w-1/2 p-4">
+    <div class="flex flex-col sm:flex-row justify-between mb-4 border-b border-grayborder">
+      <ul class="w-full sm:w-4/12 py-4">
         <h3 class="font-semibold text-2xl mb-2">Key topics in article:</h3>
         {{ key_points }}
-          <li class="flex text-xl p-2">
+          <li class="flex text-xl py-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path class="fill-current text-tomato" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
               <path class="fill-current text-white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
@@ -53,10 +52,10 @@
           </li>
         {{ /key_points}}
       </ul>
-      <ul class="w-1/2 p-4">
+      <ul class="w-full sm:w-7/12 p-4">
         <h3 class="font-semibold text-2xl mb-2">Featured Crypto:</h3>
         {{ crypto_brands }}
-          <li class="px-2 py-4 flex items-center">
+          <li class="py-2 flex items-center">
             <div class="mr-4 w-12 flex-shrink-0">
               {{ partial:components/coin where="article" }}
             </div>
