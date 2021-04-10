@@ -1,11 +1,12 @@
 ---
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618082282
+updated_at: 1618096321
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
   - 'Who''s Using It?'
+  - 'VeChain for Change'
 crypto_brands:
   - afef37f8-a84a-4415-96c0-ca9ae8e4cbb8
   - c99b860b-9e2e-4671-80da-3c03ab3eede4
@@ -40,7 +41,13 @@ content:
         text: VeChainThor
       -
         type: text
-        text: ' is a public blockchain designed to optimize supply chain management and empower members within its ecosystem by providing them a platform in which they can vote on proposals that rule its ecosystem. VeChainThor''s mainnet launched on June 30, 2018 after leaving its original home on the Ethereum smart contract network. Currently, VeChain 2.0 is on the testnet and aims to significantly upgrade its Proof of Authority ( PoA ) model which will increase the speed of applications across the board. While primarily focusing on the supply chain and dispatching the Internet of Things, VeChain is versatile enough to be explored in a plethora of industries.'
+        text: ' is a public blockchain designed to optimize supply chain management and empower members within its ecosystem by providing a platform in which they can vote on proposals that rule its ecosystem.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'The mainnet launched on June 30, 2018 after parting ways with its original home on the Ethereum smart contract network. Currently, VeChain 2.0 is being tested and aims to significantly upgrade its Proof of Authority ( PoA ) model and increase the speed of applications using the platform. Focus remains on the supply chain and dispatching the Internet of Things. VeChain is versatile and is being explored in a plethora of industries.'
   -
     type: paragraph
     content:
@@ -52,7 +59,13 @@ content:
     content:
       -
         type: text
-        text: ' VET is VeChain Thor’s cryptocurrency while VTHO is the "gas" that is used to pay for transactions. This clever two-token economic model is meant to separate the cost of interacting with the blockchain from market speculation. A large part of VeChains allure is also the ability to reduce its transaction fees. In fact, community members recently '
+        text: ' VET is VeChain Thor’s cryptocurrency while VTHO is the "gas" that is used to pay for transactions. This clever two-token economic model is meant to separate the cost of interacting with the blockchain from market speculation.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Furthermore, VeChains allure includes the ability to reduce transaction fees. In fact, community members recently '
       -
         type: text
         marks:
@@ -65,7 +78,7 @@ content:
         text: voted
       -
         type: text
-        text: ' do reduce the gas fees to 1% of what they currently are. Although the vote caused some drama, VTHO''s speculation remains strong as the price hangs at '
+        text: ' do reduce the gas fees to 1% of what they currently were. The vote was controversial, but VTHO''s speculation remains strong as the price hangs at '
       -
         type: text
         marks:
@@ -89,7 +102,7 @@ content:
     content:
       -
         type: text
-        text: 'Speaking of strong speculation, VET continues to destroy ceilings as it currently sits at its all-time high of '
+        text: 'Speaking of strong speculation, VET continues to destroy ceilings as it currently sits near its all-time high of '
       -
         type: text
         marks:
@@ -107,7 +120,7 @@ content:
         text: $1
       -
         type: text
-        text: ' before the end of the year. It is in my humble opinion that we are witnessing the adolescent stages of what will someday become the overlord of the supply chain industry. If you missed out on '
+        text: ' before the end of the year. If you missed out on '
       -
         type: text
         marks:
@@ -438,7 +451,13 @@ content:
               rel: null
         text: article.
   -
-    type: paragraph
+    type: heading
+    attrs:
+      level: 3
+    content:
+      -
+        type: text
+        text: 'VeChain for Change'
   -
     type: blockquote
     content:
@@ -460,12 +479,10 @@ content:
             text: 'Recent Interview with Sunny Lu.'
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
-        text: 'Sunny Lu''s ultimate vision and use-case for VeChain is to utilize the blockchain to record positive actions that people take and reward them in return. Things like cleaning the ocean, reducing carbon emissions, and helping the world in other ways will reward people and thus create a positive feedback loop that could resonate across the globe.'
+        text: 'Sunny Lu''s ultimate vision and use-case for VeChain is to utilize the blockchain to record positive actions that people take and reward them in return. Things like cleaning the ocean, reducing carbon emissions, and helping the world in other ways will reward people and create a positive feedback loop that could resonate across the globe.'
   -
     type: paragraph
     content:
