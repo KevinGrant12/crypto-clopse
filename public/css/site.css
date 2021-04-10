@@ -124,3 +124,9 @@ a:hover {
   margin: 0;
   font-size: 1rem;
 }
+
+@media (max-width: 991px) {
+  .article-content p {
+    font-size: 1.75rem;
+  }
+}

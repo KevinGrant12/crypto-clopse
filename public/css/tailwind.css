@@ -675,6 +675,12 @@ a:hover {
   font-size: 1rem;
 }
 
+@media (max-width: 991px) {
+  .article-content p {
+    font-size: 1.75rem;
+  }
+}
+
 .coord {
   position: fixed;
   font-size: .5rem;
