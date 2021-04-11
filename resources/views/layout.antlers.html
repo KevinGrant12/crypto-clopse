@@ -11,14 +11,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;700&display=swap" rel="stylesheet">
 
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-69KCGHMZ3L"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194330099-1">
+    </script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-69KCGHMZ3L');
+    gtag('config', 'UA-194330099-1');
     </script>
 </head>
 <body class="font-body">
@@ -50,7 +51,7 @@
         {{ partial:nav/categories }}
         
     </header>
-    <div class="lg:container flex mt-32 px-4">
+    <div class="xl:container flex mt-32 px-4">
         {{ template_content }}
     </div>
     <div id="coord-x" class="coord infline-flex flex-col items-center">
@@ -61,6 +62,20 @@
     </div>
     <footer class="p-3 bg-whitesmoke">
         <div class="footer-main flex">
+            <!-- Begin Mailchimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }</style>
+            <div id="mc_embed_signup">
+                <form action="https://cryptoclopse.us1.list-manage.com/subscribe/post?u=3baf646d5fdb6cc7c5cb08c86&amp;id=513d4850da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                    <label for="mce-EMAIL">Newsletter Signup</label>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3baf646d5fdb6cc7c5cb08c86_513d4850da" tabindex="-1" value=""></div>
+                    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div><!--End mc_embed_signup-->
         </div>
         <div class="footer-meta flex">
             <div class="text-xs">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Cryptoclopse</div>
