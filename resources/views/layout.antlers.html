@@ -15,12 +15,15 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194330099-1">
     </script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'UA-194330099-1');
+        gtag('config', 'UA-194330099-1');
     </script>
+
+    {{# Mailchimp #}}
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3baf646d5fdb6cc7c5cb08c86/631139f94fe089cf4714c2aa3.js");</script>
 </head>
 <body class="font-body">
     <header class="fixed top-0 w-screen z-10">
@@ -51,7 +54,7 @@
         {{ partial:nav/categories }}
         
     </header>
-    <div class="xl:container flex mt-32 px-4">
+    <div class="template_content">
         {{ template_content }}
     </div>
     <div id="coord-x" class="coord infline-flex flex-col items-center">
