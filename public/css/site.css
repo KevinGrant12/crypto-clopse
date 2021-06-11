@@ -5,6 +5,7 @@
 
   /* Colors */
   --blue: #07adef;
+  --blueDark: #065677;
   --tableHeader: #e8e8e8;
 }
 
@@ -142,4 +143,54 @@ a:hover {
   .article-content p {
     font-size: 2.5rem;
   }
+}
+
+/* FOOTER */
+footer #mc_embed_signup {
+  background: none;
+}
+
+footer #mc_embed_signup form {
+  padding: 0;
+}
+
+footer #mc_embed_signup label {
+  display: none;
+}
+
+footer #mc_embed_signup input.button {
+  background: var(--blueDark);
+  color: white;
+  font-family: 'Karla';
+  font-size: 1rem;
+  font-weight: 600;
+  padding: .75rem 2rem;
+  height: auto;
+  width: auto;
+  line-height: 1;
+}
+
+footer #mc_embed_signup input.button:hover {
+  background: white;
+  color: var(--blueDark);
+}
+
+footer #mc_embed_signup input.email {
+  width: 100%;
+  font-size: 1rem;
+  padding: .75rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+footer #mc_embed_signup input.email::-moz-placeholder {
+  font-size: .9rem;
+}
+
+footer #mc_embed_signup input.email:-ms-input-placeholder {
+  font-size: .9rem;
+}
+
+footer #mc_embed_signup input.email::placeholder {
+  font-size: .9rem;
 }
