@@ -6,7 +6,7 @@ key_points:
   - 'SafeMoons Ascension'
   - 'Projects Galore'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625348749
+updated_at: 1625349236
 preview: 'SafeMoon has transcended the rank of shit coin and has become one of the fastest growing coins in the cryptocurrency market. It is now the kid on the playground who stood up to the bully and got everyones lunch money back.'
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/safemoon_lion-min.webp
