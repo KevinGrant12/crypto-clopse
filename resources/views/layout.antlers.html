@@ -12,7 +12,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;700&display=swap" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-   
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194330099-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-194330099-1');
+    </script>
 
     {{# Mailchimp #}}
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3baf646d5fdb6cc7c5cb08c86/631139f94fe089cf4714c2aa3.js");</script>
