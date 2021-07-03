@@ -13,6 +13,7 @@
         "laravel/framework": "^8.0",
         "laravel/tinker": "^2.0",
         "league/flysystem-aws-s3-v3": "~1.0",
+        "pecotamic/sitemap": "^1.2",
         "statamic/cms": "3.1.27"
     },
     "require-dev": {
