@@ -1,8 +1,5 @@
 title: Pages
 revisions: false
 route: '{parent_uri}/{slug}'
-inject:
-  seo:
-    sitemap: false
 structure:
   root: true
