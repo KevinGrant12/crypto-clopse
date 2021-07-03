@@ -16,7 +16,7 @@ return [
 
     'sitemap' => [
         'enabled' => true,
-        'url' => '/sitemap.xml',
+        'url' => 'sitemap.xml',
         'expire' => 60,
     ],
 
