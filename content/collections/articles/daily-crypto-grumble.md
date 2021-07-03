@@ -1,8 +1,10 @@
 ---
 id: 2457cfe0-7374-4f5b-8d2e-250a4a2fe1bc
+published: false
+blueprint: articles
 title: 'SafeMoon is Still Safe, Bitcoin is Useless, and I am Still Not Rich'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1623718572
+updated_at: 1624657507
 category: daily-grumble
 featured_image: assets/articles/002_spotlight_vechain.jpg
 key_points:
