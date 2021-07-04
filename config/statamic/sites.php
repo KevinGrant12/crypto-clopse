@@ -18,7 +18,7 @@ return [
         'default' => [
             'name' => config('app.name'),
             'locale' => 'en_US',
-            'url' => 'cryptoclopse.com',
+            'url' => 'http://cryptoclopse.com/',
         ],
 
     ],
