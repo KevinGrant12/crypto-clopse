@@ -6,7 +6,7 @@ key_points:
   - 'SafeMoons Ascension'
   - 'Projects Galore'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625350102
+updated_at: 1625504555
 preview: 'SafeMoon has transcended the rank of shit coin and has become one of the fastest growing coins in the cryptocurrency market. It is now the kid on the playground who stood up to the bully and got everyones lunch money back.'
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/safemoon_lion-min.webp
@@ -21,7 +21,7 @@ content:
     content:
       -
         type: text
-        text: 'SafeMoon Has Risen'
+        text: 'SafeMoon Ascends to the Heavens'
   -
     type: paragraph
     content:
@@ -54,7 +54,7 @@ content:
     content:
       -
         type: text
-        text: 'My average bet on an altcoin is usually $200-$300 because I am more excited about the potential upside than the cash I am throwing into a black hole. Short-term, the value of these coins almost always gets sliced to about 1/6 of what I put in. SafeMoon is no exception to the trend, but there is a difference.'
+        text: 'My average bet on an altcoin is usually $200-$300 because I am more excited about the potential upside than the cash I am throwing into a black hole. Short-term, the value of these coins almost always gets sliced to a fraction of their all-time high. SafeMoon is no exception to the trend, but there is a difference.'
   -
     type: paragraph
     content:
@@ -82,7 +82,7 @@ content:
     content:
       -
         type: text
-        text: 'Projects Gallore'
+        text: 'Projects Galore'
   -
     type: paragraph
     content:
