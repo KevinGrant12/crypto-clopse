@@ -5,3 +5,6 @@ tree:
   -
     title: 'Crypto Spotlight'
     url: /crypto-spotlight
+  -
+    title: 'Daily Grumble'
+    url: daily-grumble

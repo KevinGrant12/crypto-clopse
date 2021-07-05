@@ -1,6 +1,7 @@
 title: 'Crypto Spotlight'
 author: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1617748041
+updated_at: 1625505644
 blueprint: categories
-content: 'Highlighting our favorite and most innovative cryptocurrencies.'
+content: 'In-depth overview of cryptocurrencies and how they stand out in the market.'
+template: blog/article

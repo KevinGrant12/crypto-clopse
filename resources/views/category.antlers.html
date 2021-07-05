@@ -3,7 +3,7 @@
 		<div class="w-2/3">
 			<h1 class="text-5xl mb-8">{{ title }}</h1>
 			<ul>
-			{{ collection from="articles" category:is="crypto-spotlight"}}
+			{{ collection from="articles" category:is="{ slug }"}}
 				{{ partial:blog/article_preview }}
 			{{ /collection}}
 			</ul>
