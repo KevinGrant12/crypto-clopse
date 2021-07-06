@@ -1,0 +1,37 @@
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: header
+        field:
+          input_type: text
+          antlers: false
+          display: Header
+          type: text
+          icon: text
+          listable: hidden
+      -
+        handle: textarea
+        field:
+          antlers: false
+          display: Textarea
+          type: textarea
+          icon: textarea
+          listable: hidden
+      -
+        handle: link
+        field:
+          display: Link
+          type: link
+          icon: link
+          listable: hidden
+      -
+        handle: tag
+        field:
+          input_type: text
+          antlers: false
+          display: Tag
+          type: text
+          icon: text
+          listable: hidden
