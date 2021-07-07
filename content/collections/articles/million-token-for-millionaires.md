@@ -2,9 +2,9 @@
 id: eb1be2f2-d35d-48fd-b402-e020ef45d750
 published: false
 blueprint: articles
-title: 'Is Million Token by The Tech Lead Right For Your Crypto Portfolio?'
+title: 'Will Million Token by The Tech Lead Make You Millions'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625691899
+updated_at: 1625692279
 category: daily-grumble
 preview: 'Million Token (MM) is a Decentralized Digital Currency for Millionaires by Millionaires. But also for normal people who enjoy money, sarcasm, and the occasional life lesson as chronicled by the Tech Lead.'
 key_points:
