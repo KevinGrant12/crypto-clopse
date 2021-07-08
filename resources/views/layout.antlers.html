@@ -39,13 +39,13 @@
                     <a href="/">
                         <img class="w-60 mr-4 py-2" src="https://cryptoclopse.s3-us-west-1.amazonaws.com/logo.png" alt="cryptoclopse blog logo">
                     </a>
-                    <div class="bg-tomato text-white rounded-3xl px-2 py-0 text-sm">Digesting the Crypto Market</div>
+                    <div class="bg-tomato text-white rounded-3xl px-3 py-0 text-sm font-semibold">Digesting the Crypto Market</div>
                 </div>
                 <div class="flex items-center">
                     <ul class="flex h-12 text-sm">
-                        <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        {{# <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
-                          </svg>
+                          </svg> #}}
                         {{ nav:main_nav }}
                             <li class="flex items-center">
                                 <a class="d-flex px-3 font-semibold" href="{{ url }}">{{ title }}</a>
@@ -104,7 +104,7 @@
     
             </div>
             <div class="footer-meta flex justify-between p-2">
-                <div class="text-sm text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> Cryptoclopse</div>
+                <div class="text-sm text-white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> CryptoClopse</div>
             </div>
         </div>
     </footer>

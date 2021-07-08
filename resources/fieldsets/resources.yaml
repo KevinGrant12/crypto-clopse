@@ -1,0 +1,30 @@
+title: Resources
+fields:
+  -
+    handle: resources
+    field:
+      collapse: false
+      sets:
+        resource:
+          display: Resource
+          fields:
+            -
+              handle: resource_title
+              field:
+                input_type: text
+                antlers: false
+                display: 'Resource Title'
+                type: text
+                icon: text
+                listable: hidden
+            -
+              handle: resource_link
+              field:
+                display: 'Resource Link'
+                type: link
+                icon: link
+                listable: hidden
+      display: Resources
+      type: replicator
+      icon: replicator
+      listable: hidden

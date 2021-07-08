@@ -1,10 +1,10 @@
 tree:
   -
-    title: 'Crypto Gear'
-    url: 'https://cryptoclopse-merchandise.myshopify.com'
-  -
     title: 'Crypto Starters Guide'
     url: crypto-starters-guide
+  -
+    title: 'Crypto Gear'
+    url: 'https://cryptoclopse-merchandise.myshopify.com'
   -
     title: Contact
     url: /contact

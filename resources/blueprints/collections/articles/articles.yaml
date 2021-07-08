@@ -129,12 +129,8 @@ sections:
           icon: entries
           listable: hidden
       -
-        handle: resources
-        field:
-          display: Resources
-          type: list
-          icon: list
-          listable: hidden
+        import: resources
+        prefix: article_
   SEO:
     display: SEO
     fields:

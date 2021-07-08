@@ -3,17 +3,69 @@ id: eb1be2f2-d35d-48fd-b402-e020ef45d750
 blueprint: articles
 title: 'How Does Million Token by The TechLead Fit Into Your Portfolio?'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625718196
+updated_at: 1625726545
 category: daily-grumble
 preview: 'Million Token (MM) is a Decentralized Digital Currency for Millionaires by Millionaires. But also for normal people who enjoy money, sarcasm, and the occasional life lesson as chronicled by TechLead.'
 key_points:
   - 'What is Million Token (for Millionaires)?'
   - 'Who is TechLead?'
   - 'Where to get MM'
+  - 'Is Million Token a Good Fit?'
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 resources:
   - 'Buy Million Token: https://app.uniswap.org/#/swap?outputCurrency=0x6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611'
 featured_image: assets/articles/million-token.jpg
+article_resources:
+  -
+    resource_title: 'Buy Million Token on Uniswap'
+    resource_link: 'https://app.uniswap.org/#/swap?outputCurrency=0x6b4c7a5e3f0b99fcd83e9c089bddd6c7fce5c611'
+    type: resource
+    enabled: true
+  -
+    resource_title: 'Official Website'
+    resource_link: 'https://milliontoken.org/'
+    type: resource
+    enabled: true
+  -
+    resource_title: 'Reddit /r/milliontoken:'
+    resource_link: 'https://www.reddit.com/r/milliontoken/'
+    type: resource
+    enabled: true
+  -
+    resource_title: Discord
+    resource_link: 'https://discord.gg/yvgbWsnbZC'
+    type: resource
+    enabled: true
+  -
+    resource_title: Telegram
+    resource_link: 'https://t.me/MillionTokenHolders'
+    type: resource
+    enabled: true
+  -
+    resource_title: Twitter
+    resource_link: 'https://twitter.com/Million__Token'
+    type: resource
+    enabled: true
+  -
+    resource_title: Instagram
+    resource_link: 'https://www.instagram.com/milliontoken/'
+    type: resource
+    enabled: true
+  -
+    resource_title: 'TechLead YouTube'
+    resource_link: 'https://www.youtube.com/techlead'
+    type: resource
+    enabled: true
+  -
+    resource_title: 'TechLead Twitter'
+    resource_link: 'https://twitter.com/techleadhd'
+    type: resource
+    enabled: true
+  -
+    resource_title: 'TechLead Instagram'
+    resource_link: 'http://instagram.com/techleadhd'
+    type: resource
+    enabled: true
 content:
   -
     type: heading
@@ -416,7 +468,7 @@ content:
         text: for
       -
         type: text
-        text: ' trust and scratching one from rumors of rug-pull shenanigans. He has been transparent about the entire process, releasing videos to document everything.'
+        text: ' trust and squashing any rug-pull shenanigans. He has been transparent about the entire process, releasing videos to document everything.'
   -
     type: heading
     attrs:
@@ -546,7 +598,7 @@ content:
     content:
       -
         type: text
-        text: 'Since my initial purchase, I am sitting at a solid 15x as the coin price sits around $15 USD. In fact, the coin reached $40 dollars at one point before coming back to reality. Not a bad run for only being around for like a week. But is this wild-west action sustainable? Will Million make yo millions or fill your saddle-bags with holes?'
+        text: 'Since my initial purchase, I am sitting at a solid 15x as the coin price sits around $15 USD. In fact, the coin reached $40 dollars at one point before coming back to reality. Not a bad run for only being around for like a week. But is this wild-west action sustainable? Will Million make you millions or fill your saddle-bags with holes?'
   -
     type: heading
     attrs:
@@ -554,7 +606,7 @@ content:
     content:
       -
         type: text
-        text: 'Is Million Token Right For My Portfolio?'
+        text: 'Is Million Token Right For Your Portfolio?'
   -
     type: heading
     attrs:
@@ -609,7 +661,7 @@ content:
     content:
       -
         type: text
-        text: 'So, buying a couple coins today, with cash you don''t mind throwing away, does not seem like a bad long-term because they can easily become worth thousands in the future.'
+        text: 'So, buying a couple coins today, with cash you don''t mind throwing away, does not seem like a bad bargain. They can easily become worth thousands in the future. Everybody has their own budget. Results may vary. Don''t listen to me...'
   -
     type: heading
     attrs:
@@ -623,7 +675,7 @@ content:
     content:
       -
         type: text
-        text: 'We have a legitimate developer, but there is no team backing the project. Other projects, such as '
+        text: 'We have a legitimate developer on our hands, but there is no team backing the project. It''s open source, which is cool, but that does not guarantee there always be people around making improvements and building upwards. Other projects, such as '
       -
         type: text
         marks:
@@ -637,7 +689,7 @@ content:
         text: SafeMoon
       -
         type: text
-        text: ', have gained large followings because of their community outreach, creative ideas, and constant push to improve the cryptocurrency community. Will TechLead support Million Token for years to come, striving for innovation and growth? Perhaps he is beginning to understand that he has created a child and without monitoring it, well, it''ll probably get electrocuted or something.'
+        text: ', have gained large followings because of their community outreach, creative ideas, and constant push to improve the cryptocurrency community. Will TechLead support Million Token for years to come, striving for innovation and growth? Stay tuned for another article some other time!'
   -
     type: heading
     attrs:
