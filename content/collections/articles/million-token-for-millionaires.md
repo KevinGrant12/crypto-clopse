@@ -3,7 +3,7 @@ id: eb1be2f2-d35d-48fd-b402-e020ef45d750
 blueprint: articles
 title: 'How Does Million Token by The TechLead Fit Into Your Portfolio?'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625707741
+updated_at: 1625718196
 category: daily-grumble
 preview: 'Million Token (MM) is a Decentralized Digital Currency for Millionaires by Millionaires. But also for normal people who enjoy money, sarcasm, and the occasional life lesson as chronicled by TechLead.'
 key_points:
@@ -466,7 +466,7 @@ content:
     content:
       -
         type: text
-        text: 'The initial supply of one dollar Million Tokens sold out in nearly two days. Crypto is lightning, but Thor himself may have spent a few bolts on this coin. As for myself, a monster amongst gods, I made out with 64 tokens in the first several hours. The first batch only took a few minutes.'
+        text: 'The initial supply of one dollar Million Tokens sold out in nearly two days. Crypto is lightning, but Thor himself may have spent a few bolts on this coin. As for myself, a monster amongst gods, I made out with 64 tokens in the first several hours. The first batch only took a few minutes:'
   -
     type: ordered_list
     attrs:
@@ -651,16 +651,16 @@ content:
     content:
       -
         type: text
-        text: 'I''ve said all I can say and wish to type no more. TechLead has created a project and used his loyal followers to hoist it up high enough for the cryptocurrency market to get a whiff. But there is much more work to be done! Will this coin actually be '
+        text: 'I''ve said all I can say and wish to type no more. TechLead has created a project and used his loyal followers to hoist it up high enough for the cryptocurrency market to get a whiff. But there is much more work to be done! Will this coin '
       -
         type: text
         marks:
           -
             type: italic
-        text: useable
+        text: actually
       -
         type: text
-        text: ' in the future? How long until your MM turns into millions? How many licks does it take to get to the center of a '
+        text: ' be useable in the future? How long until your MM turns into millions? How many licks does it take to get to the center of a '
       -
         type: text
         marks:
