@@ -3,7 +3,7 @@ id: eb1be2f2-d35d-48fd-b402-e020ef45d750
 blueprint: articles
 title: 'How Does Million Token by The TechLead Fit Into Your Portfolio?'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625726545
+updated_at: 1625791011
 category: daily-grumble
 preview: 'Million Token (MM) is a Decentralized Digital Currency for Millionaires by Millionaires. But also for normal people who enjoy money, sarcasm, and the occasional life lesson as chronicled by TechLead.'
 key_points:
@@ -95,7 +95,7 @@ content:
     content:
       -
         type: text
-        text: 'MM is a decentralized currency that is pegged to a minimum value of 1.00 $USDC with fixed-supply of one million tokens. It''s similar to Bitcoin, but on the Ethereum blockchain and starting out with a significantly larger amount of backers. It operates on the Ethereum blockchain and can be bought on '
+        text: 'MM is a decentralized currency that is pegged to a minimum value of 1.00 $USDC with fixed-supply of one million tokens. It''s similar to Bitcoin, but on the Ethereum blockchain and can primarily be bought on '
       -
         type: text
         marks:
