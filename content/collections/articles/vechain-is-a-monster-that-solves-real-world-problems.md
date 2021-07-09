@@ -1,7 +1,9 @@
 ---
+id: 6e750111-0f4e-43c0-9b37-c1c4b17e5612
+blueprint: articles
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618096321
+updated_at: 1625799773
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -16,7 +18,6 @@ tags:
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/002_spotlight_vechain.jpg
 preview: 'With its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption.'
-id: 6e750111-0f4e-43c0-9b37-c1c4b17e5612
 content:
   -
     type: heading
@@ -36,8 +37,9 @@ content:
             type: link
             attrs:
               href: 'https://www.vechain.org/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: VeChainThor
       -
         type: text
@@ -73,8 +75,9 @@ content:
             type: link
             attrs:
               href: 'https://twitter.com/vechainofficial/status/1377583193071656963?lang=en'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: voted
       -
         type: text
@@ -128,8 +131,9 @@ content:
             type: link
             attrs:
               href: 'https://bitcoin.org/en/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: Bitcoin
       -
         type: text
@@ -141,8 +145,9 @@ content:
             type: link
             attrs:
               href: 'https://ethereum.org/en/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: Ethereum
       -
         type: text
@@ -163,8 +168,9 @@ content:
             type: link
             attrs:
               href: 'https://rarible.com/token/0x60f80121c31a0d46b5279700f9df786054aa5ee5:500138:0x377f2f94a4bc0ebab9ca4bdb2f924b26a8fcc235'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
           -
             type: bold
         text: 'Buy this NFT'
@@ -351,8 +357,9 @@ content:
             type: link
             attrs:
               href: 'https://www.ledgerinsights.com/bmw-blockchain-car-mileage-vechainthor-verifycar/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: VerifyCar
       -
         type: text
@@ -378,8 +385,9 @@ content:
             type: link
             attrs:
               href: 'https://cointelegraph.com/tags/pwc'
-              target: null
               rel: null
+              target: null
+              title: null
         text: PwC
       -
         type: text
@@ -391,8 +399,9 @@ content:
             type: link
             attrs:
               href: 'https://cointelegraph.com/news/walmart-china-subsidiary-teams-up-with-vechain-to-trace-food-products'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: 'Walmart China Blockchain Traceability Platform.'
       -
         type: text
@@ -415,8 +424,9 @@ content:
             type: link
             attrs:
               href: 'https://www.coindesk.com/vechain-drug-tracking-platform-bayer'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: CSecure
       -
         type: text
@@ -428,8 +438,9 @@ content:
             type: link
             attrs:
               href: 'https://www.vechain.com/product/toolchain'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: ToolChain
       -
         type: text
@@ -447,8 +458,9 @@ content:
             type: link
             attrs:
               href: 'https://usethebitcoin.com/list-of-vechain-partnerships/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: article.
   -
     type: heading
@@ -474,8 +486,9 @@ content:
                 type: link
                 attrs:
                   href: 'https://www.youtube.com/watch?v=aEzFBkt8UA8&t=746s'
-                  target: _blank
                   rel: null
+                  target: _blank
+                  title: null
             text: 'Recent Interview with Sunny Lu.'
   -
     type: paragraph
@@ -521,8 +534,9 @@ content:
                 type: link
                 attrs:
                   href: 'http://cryptoclopse.com/articles/safemoon-protocol-secure-your-rocket-ride-to-the-moon'
-                  target: _blank
                   rel: null
+                  target: _blank
+                  title: null
             text: SafeMoon
           -
             type: text

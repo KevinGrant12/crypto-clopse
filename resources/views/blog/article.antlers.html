@@ -1,8 +1,10 @@
 <div class="xl:container flex mt-32 px-4">
   <div class="lg:container flex flex-col lg:flex-row justify-between py-8">
 
+    <div class="w-full lg:w-2/12"></div>
+
     {{# Article #}}
-    <div class="w-full lg:w-8/12">
+    <div class="w-full lg:w-7/12">
       <article>
         <h1 class="mb-4 font-display text-6xl lg:text-5xl leading-tight">{{ title }}</h1>
         <div class="flex items-center justify-between mb-4 text-base">
@@ -78,9 +80,10 @@
         </div>
         <div class="py-8">
           <div class="article-rousources">
+            <h4>Resources</h4>
             {{ article_resources }}
-              <p>{{ resource_title }}</p>
-              <a href="{{ resource_link }}" target="_blank">{{ resource_link }}</a>
+              <p class="m-0">{{ resource_title }}</p>
+              <a class="block mb-3" href="{{ resource_link }}" target="_blank">{{ resource_link }}</a>
             {{ /article_resources }}
           </div>
         </div>
