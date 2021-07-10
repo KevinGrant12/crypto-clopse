@@ -4,13 +4,13 @@ blueprint: articles
 title: 'Bitcoin Vs. Ethereum: Battle of the Titans'
 category: big-crypto
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625879355
+updated_at: 1625882066
 key_points:
   - 'A War Beckons'
   - 'Weigh Ins Before the Fight'
   - 'The Titans Battle'
   - 'Who Emerges Victorious?'
-preview: 'Ethereum is the Godzilla of cryptocurrencies. Ethereum is has many weapons, it is decentralized and fluid, and it does millions of dollars of damage to everyones wallet. Were you expecting Bitcoin to have that title? Not on my watch. Bitcoin is more of a King Kong: unnatural in size, also decentralized yet can somehow be manipulated by a single human, and it does not have a single weapon other than sheer size and people starring at it with jaws dropped. Do you disagree?'
+preview: 'Ethereum is the Godzilla of cryptocurrencies. Ethereum has many weapons, it is decentralized and fluid, and it does millions of dollars of damage to everyones wallet. Were you expecting Bitcoin to have that title? Not on my watch. Bitcoin is more of a King Kong: unnatural in size, also decentralized yet can somehow be manipulated by a single human, and it does not have a single weapon other than sheer size and people starring at it with jaws dropped. Do you disagree?'
 featured_image: assets/articles/bitkong-ethzilla.webp
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 crypto_brands:
