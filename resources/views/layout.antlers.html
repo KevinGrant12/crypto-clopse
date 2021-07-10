@@ -48,7 +48,7 @@
                           </svg> #}}
                         {{ nav:main_nav }}
                             <li class="flex items-center">
-                                <a class="d-flex px-3 font-semibold" href="{{ url }}">{{ title }}</a>
+                                <a class="d-flex px-3 font-semibold {{ if !index == 0 }}disabled{{ /if }}" href="{{ url }}">{{ title }}</a>
                             </li>
                         {{ /nav:main_nav }}
                     </ul>
