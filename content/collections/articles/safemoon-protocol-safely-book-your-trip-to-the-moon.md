@@ -1,5 +1,7 @@
 ---
-title: 'SafeMoon Protocol: Secure Your Rocket Ride to the Moon'
+id: b4683e62-5677-4b45-8c55-eefa0c1475b2
+blueprint: articles
+title: 'SafeMoon Crypto: Secure Your Rocket Ride to the Moon'
 key_points:
   - 'What is SafeMoon Protocol?'
   - 'Where and how to buy SafeMoon'
@@ -10,11 +12,10 @@ tags:
 crypto_brands:
   - 9110f676-be85-44db-bfad-6d4251222c43
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1618077305
+updated_at: 1626204777
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/article-safemoon_safemoon-protocol.jpg
 preview: 'SafeMoon is a fairly new cryptocurrency that rewards long-term investment by redistributing a percentage of each transaction to it''s holders.'
-id: b4683e62-5677-4b45-8c55-eefa0c1475b2
 content:
   -
     type: heading
@@ -23,13 +24,13 @@ content:
     content:
       -
         type: text
-        text: 'What is SafeMoon Protocol?'
+        text: 'What is SafeMoon Crypto?'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'SafeMoon is a fairly new cryptocurrency that rewards long-term investment by redistributing a percentage of each transaction to it''s holders. Anytime someone buys or sells there is a 10% fee. 5% goes to all holders, while the other 5% is permanently "burned." Personally, I have accumulated around 30 million coins in under a month just from being a holder. That is just the bird''s eye view. Let''s zoom in and see what fuels this rocket.'
+        text: 'The SafeMoon cryptocurrency is a fairly new coin rewards long-term investment by redistributing a percentage of each transaction to it''s holders. Anytime someone buys or sells there is a 10% fee. 5% goes to all holders, while the other 5% is permanently "burned." Personally, I have accumulated around 30 million coins in under a month just from being a holder. That is just the bird''s eye view. Let''s zoom in and see what fuels this rocket.'
   -
     type: blockquote
     content:
@@ -38,7 +39,7 @@ content:
         content:
           -
             type: text
-            text: 'The SafeMoon Protocol is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, & Burn.'
+            text: 'The SafeMoon cryptocurrency is a community driven, fair launched DeFi Token. Three simple functions occur during each trade: Reflection, LP Acquisition, & Burn.'
   -
     type: heading
     attrs:
@@ -60,8 +61,9 @@ content:
             type: link
             attrs:
               href: 'https://twitter.com/safemoon'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: Twitter
       -
         type: text
@@ -73,8 +75,9 @@ content:
             type: link
             attrs:
               href: 'https://discord.com/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: Discord
       -
         type: text
@@ -92,7 +95,7 @@ content:
     content:
       -
         type: text
-        text: 'SafeMoon is a deflationary coin meaning the number of coins in existence will decrease over time. At the time of writing this article, April 05 of 2021, SafeMoon has burned roughly 400 trillion coins and swiftly counting. This means that the intrinsic value of the coin should steadily grow over time as the availability decreases.'
+        text: 'The SafeMoon cryptocurrency is a deflationary coin meaning the number of coins in existence will decrease over time. At the time of writing this article, April 05 of 2021, SafeMoon has burned roughly 400 trillion coins and swiftly counting. This means that the intrinsic value of the coin should steadily grow over time as the availability decreases.'
   -
     type: heading
     attrs:
@@ -106,7 +109,7 @@ content:
     content:
       -
         type: text
-        text: 'In order to build a foundation of trust, the developer team burned all of their tokens and participated in the fair launch with everyone else. Even some high-ranking members, such as CTO Thomas (Papa) Smith, refuse to hold SafeMoon in order to avoid any conflicts of interest. In just the last month, I have witnessed the SafeMoon team grow to 50+ individuals with an eclectic skillset.  Let''s take a look at the leadership:'
+        text: 'In order to build a foundation of trust, the developer team burned all of their tokens and participated in the fair launch with everyone else. Even some high-ranking members, such as CTO Thomas "Papa" Smith, refuse to hold SafeMoon in order to avoid any conflicts of interest. In just the first month, I witnessed the SafeMoon team grow to 50+ individuals with an eclectic skillset. Let''s take a look at the leadership:'
   -
     type: table
     content:
@@ -180,7 +183,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'John (Capt Hodl) Karony'
+                    text: 'John Karony - "Capt Hodl"'
           -
             type: table_cell
             attrs:
@@ -208,7 +211,7 @@ content:
                 content:
                   -
                     type: text
-                    text: '"WhiteBIT is imminent"'
+                    text: '"Imminent"'
       -
         type: table_row
         content:
@@ -225,7 +228,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Thomas (Papa) Smith'
+                    text: 'Thomas Smith - Papa'
           -
             type: table_cell
             attrs:
@@ -270,7 +273,7 @@ content:
                 content:
                   -
                     type: text
-                    text: SafemoonDev
+                    text: 'SafeMoon Dev'
           -
             type: table_cell
             attrs:
@@ -284,7 +287,7 @@ content:
                 content:
                   -
                     type: text
-                    text: Developer
+                    text: Mystery
           -
             type: table_cell
             attrs:
@@ -298,7 +301,7 @@ content:
                 content:
                   -
                     type: text
-                    text: silence
+                    text: 'Silence is golden'
       -
         type: table_row
         content:
@@ -340,6 +343,10 @@ content:
             content:
               -
                 type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '"It''s a cat, ok?"'
       -
         type: table_row
         content:
@@ -356,7 +363,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Trevor (Ragnar) Church'
+                    text: 'Jack Haines'
           -
             type: table_cell
             attrs:
@@ -370,7 +377,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'CCO - Community Manager'
+                    text: COO
           -
             type: table_cell
             attrs:
@@ -397,7 +404,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Jacob (King Fox)'
+                    text: 'Jacob Smith - "OG KingFox"'
           -
             type: table_cell
             attrs:
@@ -438,7 +445,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Ben Phillips'
+                    text: 'Charles Karony'
           -
             type: table_cell
             attrs:
@@ -452,7 +459,7 @@ content:
                 content:
                   -
                     type: text
-                    text: 'Social Media and Funny Guy'
+                    text: 'Executive Assistant'
           -
             type: table_cell
             attrs:
@@ -463,10 +470,6 @@ content:
             content:
               -
                 type: paragraph
-                content:
-                  -
-                    type: text
-                    text: '"I am SafeMoon''s bi*$h"'
   -
     type: heading
     attrs:
@@ -504,8 +507,9 @@ content:
             type: link
             attrs:
               href: 'https://www.bitmart.com/en'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: BitMart
       -
         type: text
@@ -517,8 +521,9 @@ content:
             type: link
             attrs:
               href: 'https://medium.com/whitebit/safemoon-listed-db7fe8c0837e'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: WhiteBIT
       -
         type: text
@@ -536,7 +541,7 @@ content:
     content:
       -
         type: text
-        text: 'The SafeMoon road map is broken down quarterly. April marks the date in which we have officially departed the Q1 operations. The rocket is burning at full-force as we approach the atmosphere and prepare for our meteoric ascent to the moon. The team has successfully doubled in size, is now listed on 3 marketplaces, has some cool '
+        text: 'The SafeMoon crypto road map is broken down quarterly. April marks the date in which we have officially departed the Q1 operations. The rocket is burning at full-force as we approach the atmosphere and prepare for our meteoric ascent to the moon. The team has successfully doubled in size, is now listed on 3 marketplaces, has some cool '
       -
         type: text
         marks:
@@ -544,8 +549,9 @@ content:
             type: link
             attrs:
               href: 'https://shop.safemoon.net/'
-              target: _blank
               rel: null
+              target: _blank
+              title: null
         text: merch
       -
         type: text
@@ -561,7 +567,7 @@ content:
     content:
       -
         type: text
-        text: 'So strap on your astro boots, pack your barf bag, and get ready to lose your lunch while this rocket booms into the cryptosphere. '
+        text: 'So strap on your astro boots, pack your barf bag, and get ready to lose your lunch while this rocket booms into the crypto sphere. '
       -
         type: text
         marks:
@@ -569,12 +575,13 @@ content:
             type: link
             attrs:
               href: 'https://safemoon.net/'
-              target: _blank
               rel: null
-        text: 'SafeMoon Protocol'
+              target: _blank
+              title: null
+        text: SafeMoon
       -
         type: text
-        text: ' is here to propel you '
+        text: ' crypto is here to propel you '
       -
         type: text
         marks:
@@ -583,6 +590,24 @@ content:
         text: 'Safely to the Moon!'
   -
     type: paragraph
+    content:
+      -
+        type: text
+        text: 'Want to learn more about the SafeMoon crypto? Checkout this '
+      -
+        type: text
+        marks:
+          -
+            type: link
+            attrs:
+              href: 'statamic://entry::c9beb457-0a52-43e8-83dd-32521f221d7b'
+              rel: null
+              target: _blank
+              title: null
+        text: article
+      -
+        type: text
+        text: ' about the resilience of SafeMoon and the the core team. '
   -
     type: paragraph
     content:
@@ -600,7 +625,7 @@ content:
         content:
           -
             type: text
-            text: 'Love DogeCoin? So does the SafeMoon team. Prepare yourself for the [imminent] SafeMoon/DogeCoin trading pair on '
+            text: 'Love DogeCoin? So does the SafeMoon team. Prepare yourself for the "imminent" SafeMoon/DogeCoin trading pair on '
           -
             type: text
             marks:
@@ -608,8 +633,9 @@ content:
                 type: link
                 attrs:
                   href: 'https://www.bibipom.com/'
-                  target: _blank
                   rel: null
+                  target: _blank
+                  title: null
             text: Bibipom
           -
             type: text
