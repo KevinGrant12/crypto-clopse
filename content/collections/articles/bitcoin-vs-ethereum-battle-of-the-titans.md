@@ -4,7 +4,7 @@ blueprint: articles
 title: 'Bitcoin Vs. Ethereum: Battle of the Titans'
 category: big-crypto
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1626205068
+updated_at: 1627940597
 key_points:
   - 'A War Beckons'
   - 'Weigh Ins Before the Fight'
@@ -16,6 +16,8 @@ author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 crypto_brands:
   - 4193285b-6d34-48bd-9205-a130a81dfbfe
   - 4aa219e2-5070-40a0-9f03-9f9a99a4ad9c
+categories:
+  - big-crypto
 content:
   -
     type: paragraph

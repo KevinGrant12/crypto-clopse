@@ -10,7 +10,7 @@ category: crypto-spotlight
 crypto_brands:
   - d53ccea9-cfa7-4693-9ccf-2fe828dba47f
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1627935897
+updated_at: 1627937006
 preview: 'Born in 2015, Cardano set out to address three main blockchain challenges: scalability, interoperability, and sustainability. Now, Cardano may have shackles on the entire bockchain industry.'
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/cardano-chain.webp

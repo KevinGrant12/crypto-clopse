@@ -30,25 +30,25 @@
     {{ seo_pro:meta }}
 </head>
 <body class="font-body">
-    <header class="fixed top-0 w-screen z-10">
+    <header class="w-screen z-10">
         
         {{# Header #}}
         <div class="header-main bg-white">
-            <div class="2xl:container px-4 flex items-center justify-between">
-                <div class="flex items-center">
+            <div class="2xl:container lg:px-4 flex flex-col-reverse lg:flex-row items-center justify-between">
+                <div class="flex flex-col sm:flex-row items-center pb-4 pt-2 sm:pb-0 sm:pt-0">
                     <a href="/">
-                        <img class="w-60 mr-4 py-2" src="https://cryptoclopse.s3-us-west-1.amazonaws.com/logo.png" alt="cryptoclopse blog logo">
+                        <img class="w-80 sm:w-60 mr-4 py-2" src="https://cryptoclopse.s3-us-west-1.amazonaws.com/logo.png" alt="cryptoclopse blog logo">
                     </a>
                     <div class="bg-tomato text-white rounded-3xl px-3 py-0 text-sm font-semibold">Digesting the Crypto Market</div>
                 </div>
-                <div class="flex items-center">
-                    <ul class="flex h-12 text-sm">
+                <div class="flex items-center bg-tomato lg:bg-white w-full lg:w-auto">
+                    <ul class="flex h-8 lg:h-12 text-sm">
                         {{# <svg class="w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M17.707 9.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-7-7A.997.997 0 012 10V5a3 3 0 013-3h5c.256 0 .512.098.707.293l7 7zM5 6a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
                           </svg> #}}
                         {{ nav:main_nav }}
                             <li class="flex items-center">
-                                <a class="d-flex px-3 font-semibold {{ if !index == 0 }}disabled{{ /if }}" href="{{ url }}">{{ title }}</a>
+                                <a class="d-flex px-3 text-white lg:text-blue font-semibold {{ if !index == 0 }}disabled{{ /if }}" href="{{ url }}">{{ title }}</a>
                             </li>
                         {{ /nav:main_nav }}
                     </ul>

@@ -3,7 +3,7 @@ id: eb1be2f2-d35d-48fd-b402-e020ef45d750
 blueprint: articles
 title: 'How Does Million Token by The TechLead Fit Into Your Portfolio?'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625842816
+updated_at: 1627940485
 category: daily-grumble
 preview: 'Million Token (MM) is a Decentralized Digital Currency for Millionaires by Millionaires. But also for normal people who enjoy money, sarcasm, and the occasional life lesson as chronicled by TechLead.'
 key_points:
@@ -66,6 +66,8 @@ article_resources:
     resource_link: 'http://instagram.com/techleadhd'
     type: resource
     enabled: true
+categories:
+  - daily-grumble
 content:
   -
     type: heading

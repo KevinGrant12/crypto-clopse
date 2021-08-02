@@ -1,6 +1,8 @@
 title: Articles
 template: blog/article
 layout: layout
+taxonomies:
+  - categories
 revisions: false
 route: 'articles/{title}'
 sort_dir: asc
