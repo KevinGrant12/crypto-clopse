@@ -644,6 +644,10 @@ a:hover {
   padding: 0 1rem 1rem;
 }
 
+.article-content p a {
+  font-weight: 600;
+}
+
 .article-content blockquote {
   padding: 1rem;
   margin-bottom: 2rem;
