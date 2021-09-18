@@ -4,7 +4,7 @@ tree:
     url: /
   -
     title: 'Crypto Spotlight'
-    url: /categories/crypto-spotlight
+    url: /category/crypto-spotlight
   -
     title: 'Daily Grumbles'
-    url: /categories/daily-grumble
+    url: /category/daily-grumble

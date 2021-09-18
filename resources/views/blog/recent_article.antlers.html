@@ -1,5 +1,6 @@
-<article class="flex flex-col justify-between w-1/2 md:w-1/3 px-4 mb-8 md:mb-0 md:border-r border-grayborder">
+<article class="flex flex-col justify-between w-1/2 md:w-1/3 px-4 mb-8 md:mb-0 border-grayborder">
   <div class="mb-4">
+    <div class="mb-2">{{ partial:widgets/meta }}</div>
     <a href="{{ url }}">
       <img class="mb-4" src="{{ featured_image }}" alt="{{ featured_image:alt }}">
     </a>
@@ -7,5 +8,4 @@
       <h2 class="mb-2 font-display text-3xl lg:text-xl text-black">{{ title }}</h2>
     </a>
   </div>
-  {{ partial:widgets/meta }}
 </article>

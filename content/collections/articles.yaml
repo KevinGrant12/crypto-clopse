@@ -2,9 +2,9 @@ title: Articles
 template: blog/article
 layout: layout
 taxonomies:
-  - categories
+  - category
 revisions: false
-route: 'articles/{title}'
+route: 'articles/{category}/{title}'
 sort_dir: asc
 date_behavior:
   past: public

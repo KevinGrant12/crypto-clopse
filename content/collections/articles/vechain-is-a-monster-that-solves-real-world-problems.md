@@ -3,7 +3,7 @@ id: 6e750111-0f4e-43c0-9b37-c1c4b17e5612
 blueprint: articles
 title: 'VeChain Is a Hero for Supply Chain Management'
 updated_by: b0661e95-7c22-4bb7-a365-8c56bd87bf1d
-updated_at: 1625799773
+updated_at: 1627942931
 key_points:
   - 'What Is VeChain Thor?'
   - 'Key Features'
@@ -12,12 +12,15 @@ key_points:
 crypto_brands:
   - afef37f8-a84a-4415-96c0-ca9ae8e4cbb8
   - c99b860b-9e2e-4671-80da-3c03ab3eede4
-category: crypto-spotlight
+category:
+  - crypto-spotlight
 tags:
   - featured
 author: 03b19c0a-ef4b-405a-8a5d-2e1e03932f33
 featured_image: assets/articles/002_spotlight_vechain.jpg
 preview: 'With its native meta-transaction features, public governance model, and proof of authority ( PoA ) operators, VeChain helps simplify complex data networks, making them more readily accessible for mass enterprise adoption.'
+Category:
+  - crypto-spotlight
 content:
   -
     type: heading

@@ -1,11 +1,11 @@
-<div class="2xl:container flex mt-32 px-4">
+<div class="2xl:container flex mt-8 px-4">
 	<div class="w-full flex justify-between">
 		<div class="w-2/3">
 			<h1 class="text-5xl mb-8">{{ title }}</h1>
 			<ul>
-			{{ collection from="articles" category:is="{ slug }"}}
-				{{ partial:blog/article_preview }}
-			{{ /collection}}
+				{{ collection:articles taxonomy:category="{ slug }"}}
+					{{ partial:blog/article_preview }}
+				{{ /collection:articles }}
 			</ul>
 		</div>
 		<div class="w-1/4">
